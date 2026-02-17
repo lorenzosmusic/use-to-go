@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="7003" name="210807-song-idea" sample-rate="44100" session-range-is-free="0" id-counter="14239" rg-counter="236" name-counter="1" event-counter="668030" vca-counter="1">
+<Session version="7003" name="210807-song-idea" sample-rate="44100" session-range-is-free="0" id-counter="14254" rg-counter="239" name-counter="1" event-counter="684790" vca-counter="1">
   <ProgramVersion created-with="Ardour 1:5.12.0-3ubuntu4" modified-with="Ardour 8.4.0~ds1-2ubuntu8"/>
   <MIDIPorts>
     <Port name="Cue Control in" type="midi" direction="Input"/>
@@ -12,7 +12,8 @@
     <Port name="x-virtual-keyboard" type="midi" direction="Output">
       <Connection other="MIDI drums/midi_in 1"/>
       <Connection other="MIDI dx rhodes/midi_in 1"/>
-      <Connection other="MIDI drums/midi_in 1"/>
+      <Connection other="midi bass/midi_in 1"/>
+      <Connection other="midi bass/midi_in 1"/>
     </Port>
   </MIDIPorts>
   <Config>
@@ -134,7 +135,9 @@
     <Region name="MIDI Noise 1-2" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b1920@b652800" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="8573" type="midi" first-edit="nothing" source-0="8571" master-source-0="8571"/>
     <Region name="MIDI drums-7" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b1920@b284160" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="13430" type="midi" first-edit="nothing" source-0="13428" master-source-0="13428"/>
   </Regions>
-  <Selection/>
+  <Selection>
+    <StripableAutomationControl stripable="8025" control="0" order="2"/>
+  </Selection>
   <Locations>
     <Location id="253" name="session" start="b23040" end="b222720" flags="IsSessionRange" locked="0" timestamp="1731565988" cue="0"/>
     <Location id="728" name="Loop" start="b38400" end="b99840" flags="IsAutoLoop" locked="0" timestamp="1731565988" cue="0"/>
@@ -290,9 +293,7 @@
       <Controllable name="solo-iso" id="172" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="174" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="MIDI drums" id="186" direction="Input" default-type="midi">
-        <Port name="MIDI drums/midi_in 1" type="midi" direction="Input">
-          <Connection other="x-virtual-keyboard"/>
-        </Port>
+        <Port name="MIDI drums/midi_in 1" type="midi" direction="Input"/>
       </IO>
       <IO name="MIDI drums" id="187" direction="Output" default-type="midi">
         <Port name="MIDI drums/audio_out 1" type="audio" direction="Output">
@@ -1010,6 +1011,7 @@ dist guitar 3 in yoshimi guitar bank</Comment>
       <Controllable name="solo-safe" id="8074" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="midi bass" id="8086" direction="Input" default-type="midi">
         <Port name="midi bass/midi_in 1" type="midi" direction="Input">
+          <Connection other="x-virtual-keyboard"/>
           <ExtConnection for="JACK"/>
         </Port>
       </IO>
