@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="7003" name="210807-song-idea" sample-rate="44100" session-range-is-free="0" id-counter="87258" rg-counter="864" name-counter="1" event-counter="1333110" vca-counter="1">
+<Session version="7003" name="210807-song-idea" sample-rate="44100" session-range-is-free="0" id-counter="99459" rg-counter="910" name-counter="1" event-counter="1448674" vca-counter="1">
   <ProgramVersion created-with="Ardour 1:5.12.0-3ubuntu4" modified-with="Ardour 8.4.0~ds1-2ubuntu8"/>
   <MIDIPorts>
     <Port name="Cue Control in" type="midi" direction="Input"/>
@@ -134,6 +134,7 @@
     <Source name="Tom Drums 2-2.wav" take-id="2026-03-21 23.12.50" type="audio" flags="" id="80953" timestamp="1774152770" natural-position="a24911392000" captured-for="Tom Drums 2" channel="0" origin="" gain="1"/>
     <Source name="Tom Drums 1-3.wav" take-id="2026-03-21 23.20.06" type="audio" flags="" id="80999" timestamp="1774153206" natural-position="a24911392000" captured-for="Tom Drums 1" channel="0" origin="" gain="1"/>
     <Source name="Tom Drums 2-3.wav" take-id="2026-03-21 23.20.06" type="audio" flags="" id="81028" timestamp="1774153206" natural-position="a24911392000" captured-for="Tom Drums 2" channel="0" origin="" gain="1"/>
+    <Source name="vocals-12.wav" take-id="2026-03-30 23.44.23" type="audio" flags="" id="99417" timestamp="1774932263" natural-position="a24911392000" captured-for="vocals" channel="0" origin="" gain="1"/>
   </Sources>
   <TriggerBindings/>
   <Regions>
@@ -3118,8 +3119,19 @@ a409600 1
     <Region name="Tom Drums 1-3" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a64236646400@a24911392000" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="81047" type="audio" first-edit="nothing" source-0="80999" master-source-0="80999" channels="1"/>
     <Region name="Tom Drums 2-3" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a64236646400@a24911392000" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="81076" type="audio" first-edit="nothing" source-0="81028" master-source-0="81028" channels="1"/>
     <Region name="lead-1.22" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b1920" length="b30720@b345600" sync-position="b1920" ancestral-start="b0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="18" tags="" contents="0" rgroup="0" id="87229" type="midi" first-edit="nothing" source-0="2085" master-source-0="2085"/>
+    <Region name="lead-1.26" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b1920" length="b15360@b391680" sync-position="b1920" ancestral-start="b0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="21" tags="" contents="0" rgroup="0" id="87254" type="midi" first-edit="nothing" source-0="2085" master-source-0="2085"/>
+    <Region name="lead-1.27" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b1920" length="b30720@b345600" sync-position="b1920" ancestral-start="b0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="18" tags="" contents="0" rgroup="0" id="93297" type="midi" first-edit="nothing" source-0="2085" master-source-0="2085"/>
+    <Region name="lead-1.28" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b1920" length="b30720@b376320" sync-position="b1920" ancestral-start="b0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="19" tags="" contents="0" rgroup="0" id="93303" type="midi" first-edit="nothing" source-0="2085" master-source-0="2085"/>
+    <Region name="lead-1.29" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="b17280" length="b15360@b391680" sync-position="b17280" ancestral-start="b0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="21" tags="" contents="0" rgroup="0" id="93321" type="midi" first-edit="nothing" source-0="2085" master-source-0="2085"/>
+    <Region name="lead-1.30" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b1920" length="b15360@b376320" sync-position="b1920" ancestral-start="b0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="21" tags="" contents="0" rgroup="0" id="93332" type="midi" first-edit="nothing" source-0="2085" master-source-0="2085"/>
+    <Region name="vocals-12" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a58515353600@a24911392000" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="99430" type="audio" first-edit="nothing" source-0="99417" master-source-0="99417" channels="1"/>
   </Regions>
   <CompoundAssociations>
+    <CompoundAssociation copy="55181" original="54496"/>
+    <CompoundAssociation copy="55236" original="54560"/>
+    <CompoundAssociation copy="55280" original="54603"/>
+    <CompoundAssociation copy="55302" original="54665"/>
+    <CompoundAssociation copy="55192" original="54729"/>
     <CompoundAssociation copy="55247" original="54801"/>
     <CompoundAssociation copy="55203" original="54869"/>
     <CompoundAssociation copy="55258" original="54945"/>
@@ -3129,19 +3141,16 @@ a409600 1
     <CompoundAssociation copy="55170" original="54322"/>
     <CompoundAssociation copy="55225" original="54380"/>
     <CompoundAssociation copy="55269" original="54440"/>
-    <CompoundAssociation copy="55181" original="54496"/>
-    <CompoundAssociation copy="55236" original="54560"/>
-    <CompoundAssociation copy="55280" original="54603"/>
-    <CompoundAssociation copy="55302" original="54665"/>
-    <CompoundAssociation copy="55192" original="54729"/>
     <CompoundAssociation copy="62826" original="62654"/>
     <CompoundAssociation copy="62837" original="62728"/>
     <CompoundAssociation copy="62848" original="62737"/>
   </CompoundAssociations>
-  <Selection/>
+  <Selection>
+    <StripableAutomationControl stripable="80737" control="0" order="1"/>
+  </Selection>
   <Locations>
     <Location id="253" name="session" start="b268320" end="b902400" flags="IsSessionRange" locked="0" timestamp="1731565988" cue="0"/>
-    <Location id="728" name="Loop" start="b345600" end="b407040" flags="IsAutoLoop" locked="0" timestamp="1731565988" cue="0"/>
+    <Location id="728" name="Loop" start="b345600" end="b376320" flags="IsAutoLoop" locked="0" timestamp="1731565988" cue="0"/>
     <Location id="7474" name="New arrangement" start="b261120" end="b261120" flags="IsMark" locked="0" timestamp="1771134466" cue="0"/>
     <Location id="8786" name="end new arrangement" start="b915840" end="b915840" flags="IsMark" locked="0" timestamp="1771138312" cue="0"/>
     <Location id="8819" name="New arrangement-range" start="b268800" end="b915840" flags="IsRangeMarker" locked="0" timestamp="1771138392" cue="0"/>
@@ -3927,8 +3936,8 @@ DX rhodes 1 sound in Yoshimi Rhodes bank</Comment>
         </Port>
         <Port name="lead/midi_out 1" type="midi" direction="Output"/>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
-      <Controllable name="mute" id="2004" flags="Toggle,RealTime" value="0"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
+      <Controllable name="mute" id="2004" flags="Toggle,RealTime" value="1"/>
       <Controllable name="phase" id="2006" flags="Toggle" value="0" phase-invert=""/>
       <Automation>
         <AutomationList automation-id="solo" id="2001" interpolation-style="Discrete" time-domain="BeatTime" state="Off"/>
@@ -4923,7 +4932,7 @@ dist guitar 3 in yoshimi guitar bank</Comment>
       <Controllable name="rec-safe" id="54103" flags="Toggle,RealTime" value="0"/>
       <Controllable name="rec-enable" id="54101" flags="Toggle,RealTime" value="0"/>
     </Route>
-    <Route version="7003" id="55706" name="vocals" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="55768" saved-meter-point="MeterPostFader" alignment-choice="Automatic" mode="Normal">
+    <Route version="7003" id="55706" name="vocals" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="99415" saved-meter-point="MeterPostFader" alignment-choice="Automatic" mode="Normal">
       <PresentationInfo order="8" flags="AudioTrack,OrderSet,TriggerTrack" color="4289374975"/>
       <Controllable name="solo" id="55731" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="55737" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
@@ -5566,9 +5575,8 @@ dist guitar 3 in yoshimi guitar bank</Comment>
       <Region name="lead-1.7" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b1920" length="b30720@b284160" sync-position="b1920" ancestral-start="b0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="7" tags="" contents="0" rgroup="0" id="7614" type="midi" first-edit="nothing" source-0="2085" master-source-0="2085"/>
       <Region name="lead-1.6" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b1920" length="b30720@b314880" sync-position="b1920" ancestral-start="b0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="6" tags="" contents="0" rgroup="0" id="7611" type="midi" first-edit="nothing" source-0="2085" master-source-0="2085"/>
       <Region name="lead-1.23" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b1920" length="b15360@b345600" sync-position="b1920" ancestral-start="b0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="18" tags="" contents="0" rgroup="0" id="87235" type="midi" first-edit="nothing" source-0="2085" master-source-0="2085"/>
-      <Region name="lead-1.25" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b1920" length="b15360@b360960" sync-position="b1920" ancestral-start="b0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="20" tags="" contents="0" rgroup="0" id="87248" type="midi" first-edit="nothing" source-0="2085" master-source-0="2085"/>
-      <Region name="lead-1.24" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="b17280" length="b15360@b376320" sync-position="b1920" ancestral-start="b0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="19" tags="" contents="0" rgroup="0" id="87238" type="midi" first-edit="nothing" source-0="2085" master-source-0="2085"/>
-      <Region name="lead-1.26" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b1920" length="b15360@b391680" sync-position="b1920" ancestral-start="b0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="21" tags="" contents="0" rgroup="0" id="87254" type="midi" first-edit="nothing" source-0="2085" master-source-0="2085"/>
+      <Region name="lead-1.24" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="b17280" length="b15360@b360960" sync-position="b1920" ancestral-start="b0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="19" tags="" contents="0" rgroup="0" id="87238" type="midi" first-edit="nothing" source-0="2085" master-source-0="2085"/>
+      <Region name="lead-1.25" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b1920" length="b15360@b376320" sync-position="b1920" ancestral-start="b0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="20" tags="" contents="0" rgroup="0" id="87248" type="midi" first-edit="nothing" source-0="2085" master-source-0="2085"/>
       <Region name="lead-1.5" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b1920" length="b30720@b407040" sync-position="b1920" ancestral-start="b0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="5" tags="" contents="0" rgroup="0" id="7608" type="midi" first-edit="nothing" source-0="2085" master-source-0="2085"/>
       <Region name="lead-1.4" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b1920" length="b30720@b437760" sync-position="b1920" ancestral-start="b0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="4" tags="" contents="0" rgroup="0" id="7605" type="midi" first-edit="nothing" source-0="2085" master-source-0="2085"/>
       <Region name="lead-1.8" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b1920" length="b30720@b529920" sync-position="b1920" ancestral-start="b0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="8" tags="" contents="0" rgroup="0" id="7692" type="midi" first-edit="nothing" source-0="2085" master-source-0="2085"/>
@@ -9905,6 +9913,1296 @@ a409600 1
         </InverseFadeOut>
       </Region>
     </Playlist>
+    <Playlist id="80799" name="Tom Drums 1" type="audio" orig-track-id="80737" pgroup-id="2026-03-21 23.10.31" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="Tom Drums 1-3.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a64236646400@a24911392000" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="13504" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="81055" type="audio" first-edit="nothing" source-0="80999" master-source-0="80999" channels="1">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="81056" interpolation-style="Curved" time-domain="AudioTime" state="Off">
+            <events>a0 1.0000000116860974e-07
+a6400 0.047581917240722742
+a19200 0.095056046128510166
+a32000 0.14231484248572931
+a44800 0.18925124993221623
+a57600 0.23575894240242462
+a70400 0.28173256500817656
+a83200 0.32706797270138427
+a96000 0.37166246619609461
+a108800 0.41541502461541735
+a121600 0.45822653433631649
+a134400 0.50000001351385825
+a147200 0.54064083177629574
+a160000 0.5800569245933096
+a172800 0.6181590018317934
+a185600 0.65486075002673527
+a198400 0.69007902790898956
+a204800 0.72373402244207363
+a217600 0.75574959107584527
+a230400 0.78605314034223239
+a243200 0.81457596850756187
+a256000 0.84125352362782713
+a268800 0.86602541938889765
+a281600 0.88883548505684096
+a294400 0.90963200949777623
+a307200 0.92836792879818764
+a320000 0.94500083077800312
+a332800 0.95949299759422635
+a345600 0.97181157768799009
+a358400 0.98192869618882905
+a371200 0.98982144793751214
+a384000 0.99547193120317901
+a409600 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="81057" interpolation-style="Curved" time-domain="AudioTime" state="Off">
+            <events>a0 1
+a25600 0.99547193120317901
+a38400 0.98982144793751214
+a51200 0.98192869618882905
+a64000 0.97181157768799009
+a76800 0.95949299759422635
+a89600 0.94500083077800312
+a102400 0.92836792879818764
+a115200 0.90963200949777623
+a128000 0.88883548505684096
+a140800 0.86602541938889765
+a153600 0.84125352362782713
+a166400 0.81457596850756187
+a179200 0.78605314034223239
+a192000 0.75574959107584527
+a204800 0.72373402244207363
+a211200 0.69007902790898956
+a224000 0.65486075002673527
+a236800 0.6181590018317934
+a249600 0.5800569245933096
+a262400 0.54064083177629574
+a275200 0.50000001351385825
+a288000 0.45822653433631649
+a300800 0.41541502461541735
+a313600 0.37166246619609461
+a326400 0.32706797270138427
+a339200 0.28173256500817656
+a352000 0.23575894240242462
+a364800 0.18925124993221623
+a377600 0.14231484248572931
+a390400 0.095056046128510166
+a403200 0.047581917240722742
+a409600 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="81058" interpolation-style="Curved" time-domain="AudioTime" state="Off">
+            <events>a0 1
+a6400 0.99886733911550885
+a19200 0.99547192230339399
+a32000 0.98982144127527472
+a44800 0.98192869618882905
+a57600 0.97181156665131863
+a70400 0.9594929712165241
+a83200 0.94500081546684744
+a96000 0.92836792879818764
+a108800 0.90963199005079642
+a121600 0.88883544215458044
+a134400 0.86602539598220885
+a147200 0.84125352362782713
+a160000 0.81457594135313838
+a172800 0.78605308246601313
+a185600 0.75574956041960206
+a198400 0.72373402244207363
+a204800 0.69007902790898956
+a217600 0.65486071464754436
+a230400 0.61815892823618979
+a243200 0.5800568864602571
+a256000 0.54064083177629574
+a268800 0.49999997297228316
+a281600 0.45822645111753457
+a294400 0.41541498203247024
+a307200 0.37166246619609478
+a320000 0.32706792846270311
+a332800 0.28173247517396005
+a345600 0.2357588969086416
+a358400 0.18925124993221634
+a371200 0.1423147961488434
+a384000 0.095055952925701945
+a409600 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="81059" interpolation-style="Curved" time-domain="AudioTime" state="Off">
+            <events>a0 1.0000000116860974e-07
+a25600 0.095055952925701945
+a38400 0.1423147961488434
+a51200 0.18925124993221634
+a64000 0.2357588969086416
+a76800 0.28173247517396005
+a89600 0.32706792846270311
+a102400 0.37166246619609478
+a115200 0.41541498203247024
+a128000 0.45822645111753457
+a140800 0.49999997297228316
+a153600 0.54064083177629574
+a166400 0.5800568864602571
+a179200 0.61815892823618979
+a192000 0.65486071464754436
+a204800 0.69007902790898956
+a211200 0.72373402244207363
+a224000 0.75574956041960206
+a236800 0.78605308246601313
+a249600 0.81457594135313838
+a262400 0.84125352362782713
+a275200 0.86602539598220885
+a288000 0.88883544215458044
+a300800 0.90963199005079642
+a313600 0.92836792879818764
+a326400 0.94500081546684744
+a339200 0.9594929712165241
+a352000 0.97181156665131863
+a364800 0.98192869618882905
+a377600 0.98982144127527472
+a390400 0.99547192230339399
+a403200 0.99886733911550885
+a409600 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
+    <Playlist id="80867" name="Tom Drums 2" type="audio" orig-track-id="80805" pgroup-id="2026-03-21 23.10.31" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="Tom Drums 2-3.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a64236646400@a24911392000" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="13504" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="81084" type="audio" first-edit="nothing" source-0="81028" master-source-0="81028" channels="1">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="81085" interpolation-style="Curved" time-domain="AudioTime" state="Off">
+            <events>a0 1.0000000116860974e-07
+a6400 0.047581917240722742
+a19200 0.095056046128510166
+a32000 0.14231484248572931
+a44800 0.18925124993221623
+a57600 0.23575894240242462
+a70400 0.28173256500817656
+a83200 0.32706797270138427
+a96000 0.37166246619609461
+a108800 0.41541502461541735
+a121600 0.45822653433631649
+a134400 0.50000001351385825
+a147200 0.54064083177629574
+a160000 0.5800569245933096
+a172800 0.6181590018317934
+a185600 0.65486075002673527
+a198400 0.69007902790898956
+a204800 0.72373402244207363
+a217600 0.75574959107584527
+a230400 0.78605314034223239
+a243200 0.81457596850756187
+a256000 0.84125352362782713
+a268800 0.86602541938889765
+a281600 0.88883548505684096
+a294400 0.90963200949777623
+a307200 0.92836792879818764
+a320000 0.94500083077800312
+a332800 0.95949299759422635
+a345600 0.97181157768799009
+a358400 0.98192869618882905
+a371200 0.98982144793751214
+a384000 0.99547193120317901
+a409600 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="81086" interpolation-style="Curved" time-domain="AudioTime" state="Off">
+            <events>a0 1
+a25600 0.99547193120317901
+a38400 0.98982144793751214
+a51200 0.98192869618882905
+a64000 0.97181157768799009
+a76800 0.95949299759422635
+a89600 0.94500083077800312
+a102400 0.92836792879818764
+a115200 0.90963200949777623
+a128000 0.88883548505684096
+a140800 0.86602541938889765
+a153600 0.84125352362782713
+a166400 0.81457596850756187
+a179200 0.78605314034223239
+a192000 0.75574959107584527
+a204800 0.72373402244207363
+a211200 0.69007902790898956
+a224000 0.65486075002673527
+a236800 0.6181590018317934
+a249600 0.5800569245933096
+a262400 0.54064083177629574
+a275200 0.50000001351385825
+a288000 0.45822653433631649
+a300800 0.41541502461541735
+a313600 0.37166246619609461
+a326400 0.32706797270138427
+a339200 0.28173256500817656
+a352000 0.23575894240242462
+a364800 0.18925124993221623
+a377600 0.14231484248572931
+a390400 0.095056046128510166
+a403200 0.047581917240722742
+a409600 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="81087" interpolation-style="Curved" time-domain="AudioTime" state="Off">
+            <events>a0 1
+a6400 0.99886733911550885
+a19200 0.99547192230339399
+a32000 0.98982144127527472
+a44800 0.98192869618882905
+a57600 0.97181156665131863
+a70400 0.9594929712165241
+a83200 0.94500081546684744
+a96000 0.92836792879818764
+a108800 0.90963199005079642
+a121600 0.88883544215458044
+a134400 0.86602539598220885
+a147200 0.84125352362782713
+a160000 0.81457594135313838
+a172800 0.78605308246601313
+a185600 0.75574956041960206
+a198400 0.72373402244207363
+a204800 0.69007902790898956
+a217600 0.65486071464754436
+a230400 0.61815892823618979
+a243200 0.5800568864602571
+a256000 0.54064083177629574
+a268800 0.49999997297228316
+a281600 0.45822645111753457
+a294400 0.41541498203247024
+a307200 0.37166246619609478
+a320000 0.32706792846270311
+a332800 0.28173247517396005
+a345600 0.2357588969086416
+a358400 0.18925124993221634
+a371200 0.1423147961488434
+a384000 0.095055952925701945
+a409600 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="81088" interpolation-style="Curved" time-domain="AudioTime" state="Off">
+            <events>a0 1.0000000116860974e-07
+a25600 0.095055952925701945
+a38400 0.1423147961488434
+a51200 0.18925124993221634
+a64000 0.2357588969086416
+a76800 0.28173247517396005
+a89600 0.32706792846270311
+a102400 0.37166246619609478
+a115200 0.41541498203247024
+a128000 0.45822645111753457
+a140800 0.49999997297228316
+a153600 0.54064083177629574
+a166400 0.5800568864602571
+a179200 0.61815892823618979
+a192000 0.65486071464754436
+a204800 0.69007902790898956
+a211200 0.72373402244207363
+a224000 0.75574956041960206
+a236800 0.78605308246601313
+a249600 0.81457594135313838
+a262400 0.84125352362782713
+a275200 0.86602539598220885
+a288000 0.88883544215458044
+a300800 0.90963199005079642
+a313600 0.92836792879818764
+a326400 0.94500081546684744
+a339200 0.9594929712165241
+a352000 0.97181156665131863
+a364800 0.98192869618882905
+a377600 0.98982144127527472
+a390400 0.99547192230339399
+a403200 0.99886733911550885
+a409600 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
+    <Playlist id="99415" name="new vocals" type="audio" orig-track-id="55706" pgroup-id="2026-03-30 23.38.03" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="vocals-12.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a58515353600@a24911392000" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="14544" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="99438" type="audio" first-edit="nothing" source-0="99417" master-source-0="99417" channels="1">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="99439" interpolation-style="Curved" time-domain="AudioTime" state="Off">
+            <events>a0 1.0000000116860974e-07
+a6400 0.047581917240722742
+a19200 0.095056046128510166
+a32000 0.14231484248572931
+a44800 0.18925124993221623
+a57600 0.23575894240242462
+a70400 0.28173256500817656
+a83200 0.32706797270138427
+a96000 0.37166246619609461
+a108800 0.41541502461541735
+a121600 0.45822653433631649
+a134400 0.50000001351385825
+a147200 0.54064083177629574
+a160000 0.5800569245933096
+a172800 0.6181590018317934
+a185600 0.65486075002673527
+a198400 0.69007902790898956
+a204800 0.72373402244207363
+a217600 0.75574959107584527
+a230400 0.78605314034223239
+a243200 0.81457596850756187
+a256000 0.84125352362782713
+a268800 0.86602541938889765
+a281600 0.88883548505684096
+a294400 0.90963200949777623
+a307200 0.92836792879818764
+a320000 0.94500083077800312
+a332800 0.95949299759422635
+a345600 0.97181157768799009
+a358400 0.98192869618882905
+a371200 0.98982144793751214
+a384000 0.99547193120317901
+a409600 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="99440" interpolation-style="Curved" time-domain="AudioTime" state="Off">
+            <events>a0 1
+a25600 0.99547193120317901
+a38400 0.98982144793751214
+a51200 0.98192869618882905
+a64000 0.97181157768799009
+a76800 0.95949299759422635
+a89600 0.94500083077800312
+a102400 0.92836792879818764
+a115200 0.90963200949777623
+a128000 0.88883548505684096
+a140800 0.86602541938889765
+a153600 0.84125352362782713
+a166400 0.81457596850756187
+a179200 0.78605314034223239
+a192000 0.75574959107584527
+a204800 0.72373402244207363
+a211200 0.69007902790898956
+a224000 0.65486075002673527
+a236800 0.6181590018317934
+a249600 0.5800569245933096
+a262400 0.54064083177629574
+a275200 0.50000001351385825
+a288000 0.45822653433631649
+a300800 0.41541502461541735
+a313600 0.37166246619609461
+a326400 0.32706797270138427
+a339200 0.28173256500817656
+a352000 0.23575894240242462
+a364800 0.18925124993221623
+a377600 0.14231484248572931
+a390400 0.095056046128510166
+a403200 0.047581917240722742
+a409600 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="99441" interpolation-style="Curved" time-domain="AudioTime" state="Off">
+            <events>a0 1
+a6400 0.99886733911550885
+a19200 0.99547192230339399
+a32000 0.98982144127527472
+a44800 0.98192869618882905
+a57600 0.97181156665131863
+a70400 0.9594929712165241
+a83200 0.94500081546684744
+a96000 0.92836792879818764
+a108800 0.90963199005079642
+a121600 0.88883544215458044
+a134400 0.86602539598220885
+a147200 0.84125352362782713
+a160000 0.81457594135313838
+a172800 0.78605308246601313
+a185600 0.75574956041960206
+a198400 0.72373402244207363
+a204800 0.69007902790898956
+a217600 0.65486071464754436
+a230400 0.61815892823618979
+a243200 0.5800568864602571
+a256000 0.54064083177629574
+a268800 0.49999997297228316
+a281600 0.45822645111753457
+a294400 0.41541498203247024
+a307200 0.37166246619609478
+a320000 0.32706792846270311
+a332800 0.28173247517396005
+a345600 0.2357588969086416
+a358400 0.18925124993221634
+a371200 0.1423147961488434
+a384000 0.095055952925701945
+a409600 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="99442" interpolation-style="Curved" time-domain="AudioTime" state="Off">
+            <events>a0 1.0000000116860974e-07
+a25600 0.095055952925701945
+a38400 0.1423147961488434
+a51200 0.18925124993221634
+a64000 0.2357588969086416
+a76800 0.28173247517396005
+a89600 0.32706792846270311
+a102400 0.37166246619609478
+a115200 0.41541498203247024
+a128000 0.45822645111753457
+a140800 0.49999997297228316
+a153600 0.54064083177629574
+a166400 0.5800568864602571
+a179200 0.61815892823618979
+a192000 0.65486071464754436
+a204800 0.69007902790898956
+a211200 0.72373402244207363
+a224000 0.75574956041960206
+a236800 0.78605308246601313
+a249600 0.81457594135313838
+a262400 0.84125352362782713
+a275200 0.86602539598220885
+a288000 0.88883544215458044
+a300800 0.90963199005079642
+a313600 0.92836792879818764
+a326400 0.94500081546684744
+a339200 0.9594929712165241
+a352000 0.97181156665131863
+a364800 0.98192869618882905
+a377600 0.98982144127527472
+a390400 0.99547192230339399
+a403200 0.99886733911550885
+a409600 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
+  </Playlists>
+  <UnusedPlaylists>
+    <Playlist id="2296" name="MIDI bass 1 1.1" type="midi" orig-track-id="2355" pgroup-id="" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="MIDI bass-5.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b1920" length="b28800@b38400" sync-position="b0" ancestral-start="b0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="2299" type="midi" first-edit="nothing" source-0="2297" master-source-0="2297"/>
+      <Region name="MIDI bass-6.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b67200" sync-position="b0" ancestral-start="b0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="1" tags="" contents="0" rgroup="0" id="2307" type="midi" first-edit="nothing" source-0="2305" master-source-0="2305"/>
+    </Playlist>
+    <Playlist id="2577" name="lead 1.1" type="midi" orig-track-id="2636" pgroup-id="" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="lead-3.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b1920" length="b30720@b38400" sync-position="b0" ancestral-start="b0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="2580" type="midi" first-edit="nothing" source-0="2578" master-source-0="2578"/>
+      <Region name="lead-4.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b1920" length="b30720@b69120" sync-position="b0" ancestral-start="b0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="1" tags="" contents="0" rgroup="0" id="2588" type="midi" first-edit="nothing" source-0="2586" master-source-0="2586"/>
+    </Playlist>
+    <Playlist id="49547" name="Take.1" type="audio" orig-track-id="32390" pgroup-id="2026-03-09 23.46.28" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="Keys sax-3.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a2852113160" length="a6363784440@a32086231560" sync-position="a2852113160" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="4512" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="49608" type="audio" first-edit="nothing" source-0="49589" master-source-0="49589" channels="1">
+        <Envelope>
+          <AutomationList automation-id="envelope" id="49613" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
+            <events>a0 1.0000001000000001
+a6363782400 1
+</events>
+          </AutomationList>
+        </Envelope>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="49609" interpolation-style="Curved" time-domain="AudioTime" state="Off">
+            <events>a0 1.0000000116860974e-07
+a6400 0.047581917240722742
+a19200 0.095056046128510166
+a32000 0.14231484248572931
+a44800 0.18925124993221623
+a57600 0.23575894240242462
+a70400 0.28173256500817656
+a83200 0.32706797270138427
+a96000 0.37166246619609461
+a108800 0.41541502461541735
+a121600 0.45822653433631649
+a134400 0.50000001351385825
+a147200 0.54064083177629574
+a160000 0.5800569245933096
+a172800 0.6181590018317934
+a185600 0.65486075002673527
+a198400 0.69007902790898956
+a204800 0.72373402244207363
+a217600 0.75574959107584527
+a230400 0.78605314034223239
+a243200 0.81457596850756187
+a256000 0.84125352362782713
+a268800 0.86602541938889765
+a281600 0.88883548505684096
+a294400 0.90963200949777623
+a307200 0.92836792879818764
+a320000 0.94500083077800312
+a332800 0.95949299759422635
+a345600 0.97181157768799009
+a358400 0.98192869618882905
+a371200 0.98982144793751214
+a384000 0.99547193120317901
+a409600 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="49610" interpolation-style="Curved" time-domain="AudioTime" state="Off">
+            <events>a0 1
+a25600 0.99547193120317901
+a38400 0.98982144793751214
+a51200 0.98192869618882905
+a64000 0.97181157768799009
+a76800 0.95949299759422635
+a89600 0.94500083077800312
+a102400 0.92836792879818764
+a115200 0.90963200949777623
+a128000 0.88883548505684096
+a140800 0.86602541938889765
+a153600 0.84125352362782713
+a166400 0.81457596850756187
+a179200 0.78605314034223239
+a192000 0.75574959107584527
+a204800 0.72373402244207363
+a211200 0.69007902790898956
+a224000 0.65486075002673527
+a236800 0.6181590018317934
+a249600 0.5800569245933096
+a262400 0.54064083177629574
+a275200 0.50000001351385825
+a288000 0.45822653433631649
+a300800 0.41541502461541735
+a313600 0.37166246619609461
+a326400 0.32706797270138427
+a339200 0.28173256500817656
+a352000 0.23575894240242462
+a364800 0.18925124993221623
+a377600 0.14231484248572931
+a390400 0.095056046128510166
+a403200 0.047581917240722742
+a409600 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="49611" interpolation-style="Curved" time-domain="AudioTime" state="Off">
+            <events>a0 1
+a6400 0.99886733911550885
+a19200 0.99547192230339399
+a32000 0.98982144127527472
+a44800 0.98192869618882905
+a57600 0.97181156665131863
+a70400 0.9594929712165241
+a83200 0.94500081546684744
+a96000 0.92836792879818764
+a108800 0.90963199005079642
+a121600 0.88883544215458044
+a134400 0.86602539598220885
+a147200 0.84125352362782713
+a160000 0.81457594135313838
+a172800 0.78605308246601313
+a185600 0.75574956041960206
+a198400 0.72373402244207363
+a204800 0.69007902790898956
+a217600 0.65486071464754436
+a230400 0.61815892823618979
+a243200 0.5800568864602571
+a256000 0.54064083177629574
+a268800 0.49999997297228316
+a281600 0.45822645111753457
+a294400 0.41541498203247024
+a307200 0.37166246619609478
+a320000 0.32706792846270311
+a332800 0.28173247517396005
+a345600 0.2357588969086416
+a358400 0.18925124993221634
+a371200 0.1423147961488434
+a384000 0.095055952925701945
+a409600 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="49612" interpolation-style="Curved" time-domain="AudioTime" state="Off">
+            <events>a0 1.0000000116860974e-07
+a25600 0.095055952925701945
+a38400 0.1423147961488434
+a51200 0.18925124993221634
+a64000 0.2357588969086416
+a76800 0.28173247517396005
+a89600 0.32706792846270311
+a102400 0.37166246619609478
+a115200 0.41541498203247024
+a128000 0.45822645111753457
+a140800 0.49999997297228316
+a153600 0.54064083177629574
+a166400 0.5800568864602571
+a179200 0.61815892823618979
+a192000 0.65486071464754436
+a204800 0.69007902790898956
+a211200 0.72373402244207363
+a224000 0.75574956041960206
+a236800 0.78605308246601313
+a249600 0.81457594135313838
+a262400 0.84125352362782713
+a275200 0.86602539598220885
+a288000 0.88883544215458044
+a300800 0.90963199005079642
+a313600 0.92836792879818764
+a326400 0.94500081546684744
+a339200 0.9594929712165241
+a352000 0.97181156665131863
+a364800 0.98192869618882905
+a377600 0.98982144127527472
+a390400 0.99547192230339399
+a403200 0.99886733911550885
+a409600 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="Keys sax-3.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a2852113160" length="a6363784440@a43494669448" sync-position="a2852113160" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="1" tags="" contents="0" rgroup="4544" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="49641" type="audio" first-edit="nothing" source-0="49589" master-source-0="49589" channels="1">
+        <Envelope>
+          <AutomationList automation-id="envelope" id="49647" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
+            <events>a0 1.0000001000000001
+a6363782400 1
+</events>
+          </AutomationList>
+        </Envelope>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="49642" interpolation-style="Curved" time-domain="AudioTime" state="Off">
+            <events>a0 1.0000000116860974e-07
+a6400 0.047581917240722742
+a19200 0.095056046128510166
+a32000 0.14231484248572931
+a44800 0.18925124993221623
+a57600 0.23575894240242462
+a70400 0.28173256500817656
+a83200 0.32706797270138427
+a96000 0.37166246619609461
+a108800 0.41541502461541735
+a121600 0.45822653433631649
+a134400 0.50000001351385825
+a147200 0.54064083177629574
+a160000 0.5800569245933096
+a172800 0.6181590018317934
+a185600 0.65486075002673527
+a198400 0.69007902790898956
+a204800 0.72373402244207363
+a217600 0.75574959107584527
+a230400 0.78605314034223239
+a243200 0.81457596850756187
+a256000 0.84125352362782713
+a268800 0.86602541938889765
+a281600 0.88883548505684096
+a294400 0.90963200949777623
+a307200 0.92836792879818764
+a320000 0.94500083077800312
+a332800 0.95949299759422635
+a345600 0.97181157768799009
+a358400 0.98192869618882905
+a371200 0.98982144793751214
+a384000 0.99547193120317901
+a409600 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="49643" interpolation-style="Curved" time-domain="AudioTime" state="Off">
+            <events>a0 1
+a25600 0.99547193120317901
+a38400 0.98982144793751214
+a51200 0.98192869618882905
+a64000 0.97181157768799009
+a76800 0.95949299759422635
+a89600 0.94500083077800312
+a102400 0.92836792879818764
+a115200 0.90963200949777623
+a128000 0.88883548505684096
+a140800 0.86602541938889765
+a153600 0.84125352362782713
+a166400 0.81457596850756187
+a179200 0.78605314034223239
+a192000 0.75574959107584527
+a204800 0.72373402244207363
+a211200 0.69007902790898956
+a224000 0.65486075002673527
+a236800 0.6181590018317934
+a249600 0.5800569245933096
+a262400 0.54064083177629574
+a275200 0.50000001351385825
+a288000 0.45822653433631649
+a300800 0.41541502461541735
+a313600 0.37166246619609461
+a326400 0.32706797270138427
+a339200 0.28173256500817656
+a352000 0.23575894240242462
+a364800 0.18925124993221623
+a377600 0.14231484248572931
+a390400 0.095056046128510166
+a403200 0.047581917240722742
+a409600 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="49644" interpolation-style="Curved" time-domain="AudioTime" state="Off">
+            <events>a0 1
+a6400 0.99886733911550885
+a19200 0.99547192230339399
+a32000 0.98982144127527472
+a44800 0.98192869618882905
+a57600 0.97181156665131863
+a70400 0.9594929712165241
+a83200 0.94500081546684744
+a96000 0.92836792879818764
+a108800 0.90963199005079642
+a121600 0.88883544215458044
+a134400 0.86602539598220885
+a147200 0.84125352362782713
+a160000 0.81457594135313838
+a172800 0.78605308246601313
+a185600 0.75574956041960206
+a198400 0.72373402244207363
+a204800 0.69007902790898956
+a217600 0.65486071464754436
+a230400 0.61815892823618979
+a243200 0.5800568864602571
+a256000 0.54064083177629574
+a268800 0.49999997297228316
+a281600 0.45822645111753457
+a294400 0.41541498203247024
+a307200 0.37166246619609478
+a320000 0.32706792846270311
+a332800 0.28173247517396005
+a345600 0.2357588969086416
+a358400 0.18925124993221634
+a371200 0.1423147961488434
+a384000 0.095055952925701945
+a409600 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="49645" interpolation-style="Curved" time-domain="AudioTime" state="Off">
+            <events>a0 1.0000000116860974e-07
+a25600 0.095055952925701945
+a38400 0.1423147961488434
+a51200 0.18925124993221634
+a64000 0.2357588969086416
+a76800 0.28173247517396005
+a89600 0.32706792846270311
+a102400 0.37166246619609478
+a115200 0.41541498203247024
+a128000 0.45822645111753457
+a140800 0.49999997297228316
+a153600 0.54064083177629574
+a166400 0.5800568864602571
+a179200 0.61815892823618979
+a192000 0.65486071464754436
+a204800 0.69007902790898956
+a211200 0.72373402244207363
+a224000 0.75574956041960206
+a236800 0.78605308246601313
+a249600 0.81457594135313838
+a262400 0.84125352362782713
+a275200 0.86602539598220885
+a288000 0.88883544215458044
+a300800 0.90963199005079642
+a313600 0.92836792879818764
+a326400 0.94500081546684744
+a339200 0.9594929712165241
+a352000 0.97181156665131863
+a364800 0.98192869618882905
+a377600 0.98982144127527472
+a390400 0.99547192230339399
+a403200 0.99886733911550885
+a409600 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
+    <Playlist id="50068" name="Take.2" type="audio" orig-track-id="32390" pgroup-id="2026-03-10 00.13.07" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="Keys sax-6.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a2852113160" length="a6403106040@a32086231560" sync-position="a2852113160" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="5472" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="50129" type="audio" first-edit="nothing" source-0="50110" master-source-0="50110" channels="1">
+        <Envelope>
+          <AutomationList automation-id="envelope" id="50134" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
+            <events>a0 1.0000001000000001
+a6403104000 1
+</events>
+          </AutomationList>
+        </Envelope>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="50130" interpolation-style="Curved" time-domain="AudioTime" state="Off">
+            <events>a0 1.0000000116860974e-07
+a6400 0.047581917240722742
+a19200 0.095056046128510166
+a32000 0.14231484248572931
+a44800 0.18925124993221623
+a57600 0.23575894240242462
+a70400 0.28173256500817656
+a83200 0.32706797270138427
+a96000 0.37166246619609461
+a108800 0.41541502461541735
+a121600 0.45822653433631649
+a134400 0.50000001351385825
+a147200 0.54064083177629574
+a160000 0.5800569245933096
+a172800 0.6181590018317934
+a185600 0.65486075002673527
+a198400 0.69007902790898956
+a204800 0.72373402244207363
+a217600 0.75574959107584527
+a230400 0.78605314034223239
+a243200 0.81457596850756187
+a256000 0.84125352362782713
+a268800 0.86602541938889765
+a281600 0.88883548505684096
+a294400 0.90963200949777623
+a307200 0.92836792879818764
+a320000 0.94500083077800312
+a332800 0.95949299759422635
+a345600 0.97181157768799009
+a358400 0.98192869618882905
+a371200 0.98982144793751214
+a384000 0.99547193120317901
+a409600 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="50131" interpolation-style="Curved" time-domain="AudioTime" state="Off">
+            <events>a0 1
+a25600 0.99547193120317901
+a38400 0.98982144793751214
+a51200 0.98192869618882905
+a64000 0.97181157768799009
+a76800 0.95949299759422635
+a89600 0.94500083077800312
+a102400 0.92836792879818764
+a115200 0.90963200949777623
+a128000 0.88883548505684096
+a140800 0.86602541938889765
+a153600 0.84125352362782713
+a166400 0.81457596850756187
+a179200 0.78605314034223239
+a192000 0.75574959107584527
+a204800 0.72373402244207363
+a211200 0.69007902790898956
+a224000 0.65486075002673527
+a236800 0.6181590018317934
+a249600 0.5800569245933096
+a262400 0.54064083177629574
+a275200 0.50000001351385825
+a288000 0.45822653433631649
+a300800 0.41541502461541735
+a313600 0.37166246619609461
+a326400 0.32706797270138427
+a339200 0.28173256500817656
+a352000 0.23575894240242462
+a364800 0.18925124993221623
+a377600 0.14231484248572931
+a390400 0.095056046128510166
+a403200 0.047581917240722742
+a409600 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="50132" interpolation-style="Curved" time-domain="AudioTime" state="Off">
+            <events>a0 1
+a6400 0.99886733911550885
+a19200 0.99547192230339399
+a32000 0.98982144127527472
+a44800 0.98192869618882905
+a57600 0.97181156665131863
+a70400 0.9594929712165241
+a83200 0.94500081546684744
+a96000 0.92836792879818764
+a108800 0.90963199005079642
+a121600 0.88883544215458044
+a134400 0.86602539598220885
+a147200 0.84125352362782713
+a160000 0.81457594135313838
+a172800 0.78605308246601313
+a185600 0.75574956041960206
+a198400 0.72373402244207363
+a204800 0.69007902790898956
+a217600 0.65486071464754436
+a230400 0.61815892823618979
+a243200 0.5800568864602571
+a256000 0.54064083177629574
+a268800 0.49999997297228316
+a281600 0.45822645111753457
+a294400 0.41541498203247024
+a307200 0.37166246619609478
+a320000 0.32706792846270311
+a332800 0.28173247517396005
+a345600 0.2357588969086416
+a358400 0.18925124993221634
+a371200 0.1423147961488434
+a384000 0.095055952925701945
+a409600 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="50133" interpolation-style="Curved" time-domain="AudioTime" state="Off">
+            <events>a0 1.0000000116860974e-07
+a25600 0.095055952925701945
+a38400 0.1423147961488434
+a51200 0.18925124993221634
+a64000 0.2357588969086416
+a76800 0.28173247517396005
+a89600 0.32706792846270311
+a102400 0.37166246619609478
+a115200 0.41541498203247024
+a128000 0.45822645111753457
+a140800 0.49999997297228316
+a153600 0.54064083177629574
+a166400 0.5800568864602571
+a179200 0.61815892823618979
+a192000 0.65486071464754436
+a204800 0.69007902790898956
+a211200 0.72373402244207363
+a224000 0.75574956041960206
+a236800 0.78605308246601313
+a249600 0.81457594135313838
+a262400 0.84125352362782713
+a275200 0.86602539598220885
+a288000 0.88883544215458044
+a300800 0.90963199005079642
+a313600 0.92836792879818764
+a326400 0.94500081546684744
+a339200 0.9594929712165241
+a352000 0.97181156665131863
+a364800 0.98192869618882905
+a377600 0.98982144127527472
+a390400 0.99547192230339399
+a403200 0.99886733911550885
+a409600 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="Keys sax-6.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a2852113160" length="a6403106040@a43494669448" sync-position="a2852113160" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="1" tags="" contents="0" rgroup="5488" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="50162" type="audio" first-edit="nothing" source-0="50110" master-source-0="50110" channels="1">
+        <Envelope>
+          <AutomationList automation-id="envelope" id="50168" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
+            <events>a0 1.0000001000000001
+a6403104000 1
+</events>
+          </AutomationList>
+        </Envelope>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="50163" interpolation-style="Curved" time-domain="AudioTime" state="Off">
+            <events>a0 1.0000000116860974e-07
+a6400 0.047581917240722742
+a19200 0.095056046128510166
+a32000 0.14231484248572931
+a44800 0.18925124993221623
+a57600 0.23575894240242462
+a70400 0.28173256500817656
+a83200 0.32706797270138427
+a96000 0.37166246619609461
+a108800 0.41541502461541735
+a121600 0.45822653433631649
+a134400 0.50000001351385825
+a147200 0.54064083177629574
+a160000 0.5800569245933096
+a172800 0.6181590018317934
+a185600 0.65486075002673527
+a198400 0.69007902790898956
+a204800 0.72373402244207363
+a217600 0.75574959107584527
+a230400 0.78605314034223239
+a243200 0.81457596850756187
+a256000 0.84125352362782713
+a268800 0.86602541938889765
+a281600 0.88883548505684096
+a294400 0.90963200949777623
+a307200 0.92836792879818764
+a320000 0.94500083077800312
+a332800 0.95949299759422635
+a345600 0.97181157768799009
+a358400 0.98192869618882905
+a371200 0.98982144793751214
+a384000 0.99547193120317901
+a409600 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="50164" interpolation-style="Curved" time-domain="AudioTime" state="Off">
+            <events>a0 1
+a25600 0.99547193120317901
+a38400 0.98982144793751214
+a51200 0.98192869618882905
+a64000 0.97181157768799009
+a76800 0.95949299759422635
+a89600 0.94500083077800312
+a102400 0.92836792879818764
+a115200 0.90963200949777623
+a128000 0.88883548505684096
+a140800 0.86602541938889765
+a153600 0.84125352362782713
+a166400 0.81457596850756187
+a179200 0.78605314034223239
+a192000 0.75574959107584527
+a204800 0.72373402244207363
+a211200 0.69007902790898956
+a224000 0.65486075002673527
+a236800 0.6181590018317934
+a249600 0.5800569245933096
+a262400 0.54064083177629574
+a275200 0.50000001351385825
+a288000 0.45822653433631649
+a300800 0.41541502461541735
+a313600 0.37166246619609461
+a326400 0.32706797270138427
+a339200 0.28173256500817656
+a352000 0.23575894240242462
+a364800 0.18925124993221623
+a377600 0.14231484248572931
+a390400 0.095056046128510166
+a403200 0.047581917240722742
+a409600 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="50165" interpolation-style="Curved" time-domain="AudioTime" state="Off">
+            <events>a0 1
+a6400 0.99886733911550885
+a19200 0.99547192230339399
+a32000 0.98982144127527472
+a44800 0.98192869618882905
+a57600 0.97181156665131863
+a70400 0.9594929712165241
+a83200 0.94500081546684744
+a96000 0.92836792879818764
+a108800 0.90963199005079642
+a121600 0.88883544215458044
+a134400 0.86602539598220885
+a147200 0.84125352362782713
+a160000 0.81457594135313838
+a172800 0.78605308246601313
+a185600 0.75574956041960206
+a198400 0.72373402244207363
+a204800 0.69007902790898956
+a217600 0.65486071464754436
+a230400 0.61815892823618979
+a243200 0.5800568864602571
+a256000 0.54064083177629574
+a268800 0.49999997297228316
+a281600 0.45822645111753457
+a294400 0.41541498203247024
+a307200 0.37166246619609478
+a320000 0.32706792846270311
+a332800 0.28173247517396005
+a345600 0.2357588969086416
+a358400 0.18925124993221634
+a371200 0.1423147961488434
+a384000 0.095055952925701945
+a409600 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="50166" interpolation-style="Curved" time-domain="AudioTime" state="Off">
+            <events>a0 1.0000000116860974e-07
+a25600 0.095055952925701945
+a38400 0.1423147961488434
+a51200 0.18925124993221634
+a64000 0.2357588969086416
+a76800 0.28173247517396005
+a89600 0.32706792846270311
+a102400 0.37166246619609478
+a115200 0.41541498203247024
+a128000 0.45822645111753457
+a140800 0.49999997297228316
+a153600 0.54064083177629574
+a166400 0.5800568864602571
+a179200 0.61815892823618979
+a192000 0.65486071464754436
+a204800 0.69007902790898956
+a211200 0.72373402244207363
+a224000 0.75574956041960206
+a236800 0.78605308246601313
+a249600 0.81457594135313838
+a262400 0.84125352362782713
+a275200 0.86602539598220885
+a288000 0.88883544215458044
+a300800 0.90963199005079642
+a313600 0.92836792879818764
+a326400 0.94500081546684744
+a339200 0.9594929712165241
+a352000 0.97181156665131863
+a364800 0.98192869618882905
+a377600 0.98982144127527472
+a390400 0.99547192230339399
+a403200 0.99886733911550885
+a409600 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="Keys sax-6.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a2852113160" length="a6403106040@a66311545224" sync-position="a2852113160" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="2" tags="" contents="0" rgroup="5536" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="50185" type="audio" first-edit="nothing" source-0="50110" master-source-0="50110" channels="1">
+        <Envelope>
+          <AutomationList automation-id="envelope" id="50191" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
+            <events>a0 1.0000001000000001
+a6403104000 1
+</events>
+          </AutomationList>
+        </Envelope>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="50186" interpolation-style="Curved" time-domain="AudioTime" state="Off">
+            <events>a0 1.0000000116860974e-07
+a6400 0.047581917240722742
+a19200 0.095056046128510166
+a32000 0.14231484248572931
+a44800 0.18925124993221623
+a57600 0.23575894240242462
+a70400 0.28173256500817656
+a83200 0.32706797270138427
+a96000 0.37166246619609461
+a108800 0.41541502461541735
+a121600 0.45822653433631649
+a134400 0.50000001351385825
+a147200 0.54064083177629574
+a160000 0.5800569245933096
+a172800 0.6181590018317934
+a185600 0.65486075002673527
+a198400 0.69007902790898956
+a204800 0.72373402244207363
+a217600 0.75574959107584527
+a230400 0.78605314034223239
+a243200 0.81457596850756187
+a256000 0.84125352362782713
+a268800 0.86602541938889765
+a281600 0.88883548505684096
+a294400 0.90963200949777623
+a307200 0.92836792879818764
+a320000 0.94500083077800312
+a332800 0.95949299759422635
+a345600 0.97181157768799009
+a358400 0.98192869618882905
+a371200 0.98982144793751214
+a384000 0.99547193120317901
+a409600 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="50187" interpolation-style="Curved" time-domain="AudioTime" state="Off">
+            <events>a0 1
+a25600 0.99547193120317901
+a38400 0.98982144793751214
+a51200 0.98192869618882905
+a64000 0.97181157768799009
+a76800 0.95949299759422635
+a89600 0.94500083077800312
+a102400 0.92836792879818764
+a115200 0.90963200949777623
+a128000 0.88883548505684096
+a140800 0.86602541938889765
+a153600 0.84125352362782713
+a166400 0.81457596850756187
+a179200 0.78605314034223239
+a192000 0.75574959107584527
+a204800 0.72373402244207363
+a211200 0.69007902790898956
+a224000 0.65486075002673527
+a236800 0.6181590018317934
+a249600 0.5800569245933096
+a262400 0.54064083177629574
+a275200 0.50000001351385825
+a288000 0.45822653433631649
+a300800 0.41541502461541735
+a313600 0.37166246619609461
+a326400 0.32706797270138427
+a339200 0.28173256500817656
+a352000 0.23575894240242462
+a364800 0.18925124993221623
+a377600 0.14231484248572931
+a390400 0.095056046128510166
+a403200 0.047581917240722742
+a409600 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="50188" interpolation-style="Curved" time-domain="AudioTime" state="Off">
+            <events>a0 1
+a6400 0.99886733911550885
+a19200 0.99547192230339399
+a32000 0.98982144127527472
+a44800 0.98192869618882905
+a57600 0.97181156665131863
+a70400 0.9594929712165241
+a83200 0.94500081546684744
+a96000 0.92836792879818764
+a108800 0.90963199005079642
+a121600 0.88883544215458044
+a134400 0.86602539598220885
+a147200 0.84125352362782713
+a160000 0.81457594135313838
+a172800 0.78605308246601313
+a185600 0.75574956041960206
+a198400 0.72373402244207363
+a204800 0.69007902790898956
+a217600 0.65486071464754436
+a230400 0.61815892823618979
+a243200 0.5800568864602571
+a256000 0.54064083177629574
+a268800 0.49999997297228316
+a281600 0.45822645111753457
+a294400 0.41541498203247024
+a307200 0.37166246619609478
+a320000 0.32706792846270311
+a332800 0.28173247517396005
+a345600 0.2357588969086416
+a358400 0.18925124993221634
+a371200 0.1423147961488434
+a384000 0.095055952925701945
+a409600 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="50189" interpolation-style="Curved" time-domain="AudioTime" state="Off">
+            <events>a0 1.0000000116860974e-07
+a25600 0.095055952925701945
+a38400 0.1423147961488434
+a51200 0.18925124993221634
+a64000 0.2357588969086416
+a76800 0.28173247517396005
+a89600 0.32706792846270311
+a102400 0.37166246619609478
+a115200 0.41541498203247024
+a128000 0.45822645111753457
+a140800 0.49999997297228316
+a153600 0.54064083177629574
+a166400 0.5800568864602571
+a179200 0.61815892823618979
+a192000 0.65486071464754436
+a204800 0.69007902790898956
+a211200 0.72373402244207363
+a224000 0.75574956041960206
+a236800 0.78605308246601313
+a249600 0.81457594135313838
+a262400 0.84125352362782713
+a275200 0.86602539598220885
+a288000 0.88883544215458044
+a300800 0.90963199005079642
+a313600 0.92836792879818764
+a326400 0.94500081546684744
+a339200 0.9594929712165241
+a352000 0.97181156665131863
+a364800 0.98192869618882905
+a377600 0.98982144127527472
+a390400 0.99547192230339399
+a403200 0.99886733911550885
+a409600 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
     <Playlist id="55768" name="vocals" type="audio" orig-track-id="55706" pgroup-id="2026-03-11 23.51.06" shared-with-ids="" frozen="0" combine-ops="0">
       <Region name="vocals-9.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a980415311" length="a2825485489@a25936370511" sync-position="a980415311" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="4" tags="" contents="0" rgroup="11968" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="63483" type="audio" first-edit="nothing" source-0="63464" master-source-0="63464" channels="1">
         <Envelope>
@@ -10835,1139 +12133,6 @@ a409600 1.0000000116860974e-07
         </FadeOut>
         <InverseFadeOut>
           <AutomationList automation-id="fadeout" id="63599" interpolation-style="Curved" time-domain="AudioTime" state="Off">
-            <events>a0 1.0000000116860974e-07
-a25600 0.095055952925701945
-a38400 0.1423147961488434
-a51200 0.18925124993221634
-a64000 0.2357588969086416
-a76800 0.28173247517396005
-a89600 0.32706792846270311
-a102400 0.37166246619609478
-a115200 0.41541498203247024
-a128000 0.45822645111753457
-a140800 0.49999997297228316
-a153600 0.54064083177629574
-a166400 0.5800568864602571
-a179200 0.61815892823618979
-a192000 0.65486071464754436
-a204800 0.69007902790898956
-a211200 0.72373402244207363
-a224000 0.75574956041960206
-a236800 0.78605308246601313
-a249600 0.81457594135313838
-a262400 0.84125352362782713
-a275200 0.86602539598220885
-a288000 0.88883544215458044
-a300800 0.90963199005079642
-a313600 0.92836792879818764
-a326400 0.94500081546684744
-a339200 0.9594929712165241
-a352000 0.97181156665131863
-a364800 0.98192869618882905
-a377600 0.98982144127527472
-a390400 0.99547192230339399
-a403200 0.99886733911550885
-a409600 1
-</events>
-          </AutomationList>
-        </InverseFadeOut>
-      </Region>
-    </Playlist>
-    <Playlist id="80799" name="Tom Drums 1" type="audio" orig-track-id="80737" pgroup-id="2026-03-21 23.10.31" shared-with-ids="" frozen="0" combine-ops="0">
-      <Region name="Tom Drums 1-3.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a64236646400@a24911392000" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="13504" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="81055" type="audio" first-edit="nothing" source-0="80999" master-source-0="80999" channels="1">
-        <Envelope default="yes"/>
-        <FadeIn>
-          <AutomationList automation-id="fadein" id="81056" interpolation-style="Curved" time-domain="AudioTime" state="Off">
-            <events>a0 1.0000000116860974e-07
-a6400 0.047581917240722742
-a19200 0.095056046128510166
-a32000 0.14231484248572931
-a44800 0.18925124993221623
-a57600 0.23575894240242462
-a70400 0.28173256500817656
-a83200 0.32706797270138427
-a96000 0.37166246619609461
-a108800 0.41541502461541735
-a121600 0.45822653433631649
-a134400 0.50000001351385825
-a147200 0.54064083177629574
-a160000 0.5800569245933096
-a172800 0.6181590018317934
-a185600 0.65486075002673527
-a198400 0.69007902790898956
-a204800 0.72373402244207363
-a217600 0.75574959107584527
-a230400 0.78605314034223239
-a243200 0.81457596850756187
-a256000 0.84125352362782713
-a268800 0.86602541938889765
-a281600 0.88883548505684096
-a294400 0.90963200949777623
-a307200 0.92836792879818764
-a320000 0.94500083077800312
-a332800 0.95949299759422635
-a345600 0.97181157768799009
-a358400 0.98192869618882905
-a371200 0.98982144793751214
-a384000 0.99547193120317901
-a409600 1
-</events>
-          </AutomationList>
-        </FadeIn>
-        <InverseFadeIn>
-          <AutomationList automation-id="fadein" id="81057" interpolation-style="Curved" time-domain="AudioTime" state="Off">
-            <events>a0 1
-a25600 0.99547193120317901
-a38400 0.98982144793751214
-a51200 0.98192869618882905
-a64000 0.97181157768799009
-a76800 0.95949299759422635
-a89600 0.94500083077800312
-a102400 0.92836792879818764
-a115200 0.90963200949777623
-a128000 0.88883548505684096
-a140800 0.86602541938889765
-a153600 0.84125352362782713
-a166400 0.81457596850756187
-a179200 0.78605314034223239
-a192000 0.75574959107584527
-a204800 0.72373402244207363
-a211200 0.69007902790898956
-a224000 0.65486075002673527
-a236800 0.6181590018317934
-a249600 0.5800569245933096
-a262400 0.54064083177629574
-a275200 0.50000001351385825
-a288000 0.45822653433631649
-a300800 0.41541502461541735
-a313600 0.37166246619609461
-a326400 0.32706797270138427
-a339200 0.28173256500817656
-a352000 0.23575894240242462
-a364800 0.18925124993221623
-a377600 0.14231484248572931
-a390400 0.095056046128510166
-a403200 0.047581917240722742
-a409600 1.0000000116860974e-07
-</events>
-          </AutomationList>
-        </InverseFadeIn>
-        <FadeOut>
-          <AutomationList automation-id="fadeout" id="81058" interpolation-style="Curved" time-domain="AudioTime" state="Off">
-            <events>a0 1
-a6400 0.99886733911550885
-a19200 0.99547192230339399
-a32000 0.98982144127527472
-a44800 0.98192869618882905
-a57600 0.97181156665131863
-a70400 0.9594929712165241
-a83200 0.94500081546684744
-a96000 0.92836792879818764
-a108800 0.90963199005079642
-a121600 0.88883544215458044
-a134400 0.86602539598220885
-a147200 0.84125352362782713
-a160000 0.81457594135313838
-a172800 0.78605308246601313
-a185600 0.75574956041960206
-a198400 0.72373402244207363
-a204800 0.69007902790898956
-a217600 0.65486071464754436
-a230400 0.61815892823618979
-a243200 0.5800568864602571
-a256000 0.54064083177629574
-a268800 0.49999997297228316
-a281600 0.45822645111753457
-a294400 0.41541498203247024
-a307200 0.37166246619609478
-a320000 0.32706792846270311
-a332800 0.28173247517396005
-a345600 0.2357588969086416
-a358400 0.18925124993221634
-a371200 0.1423147961488434
-a384000 0.095055952925701945
-a409600 1.0000000116860974e-07
-</events>
-          </AutomationList>
-        </FadeOut>
-        <InverseFadeOut>
-          <AutomationList automation-id="fadeout" id="81059" interpolation-style="Curved" time-domain="AudioTime" state="Off">
-            <events>a0 1.0000000116860974e-07
-a25600 0.095055952925701945
-a38400 0.1423147961488434
-a51200 0.18925124993221634
-a64000 0.2357588969086416
-a76800 0.28173247517396005
-a89600 0.32706792846270311
-a102400 0.37166246619609478
-a115200 0.41541498203247024
-a128000 0.45822645111753457
-a140800 0.49999997297228316
-a153600 0.54064083177629574
-a166400 0.5800568864602571
-a179200 0.61815892823618979
-a192000 0.65486071464754436
-a204800 0.69007902790898956
-a211200 0.72373402244207363
-a224000 0.75574956041960206
-a236800 0.78605308246601313
-a249600 0.81457594135313838
-a262400 0.84125352362782713
-a275200 0.86602539598220885
-a288000 0.88883544215458044
-a300800 0.90963199005079642
-a313600 0.92836792879818764
-a326400 0.94500081546684744
-a339200 0.9594929712165241
-a352000 0.97181156665131863
-a364800 0.98192869618882905
-a377600 0.98982144127527472
-a390400 0.99547192230339399
-a403200 0.99886733911550885
-a409600 1
-</events>
-          </AutomationList>
-        </InverseFadeOut>
-      </Region>
-    </Playlist>
-    <Playlist id="80867" name="Tom Drums 2" type="audio" orig-track-id="80805" pgroup-id="2026-03-21 23.10.31" shared-with-ids="" frozen="0" combine-ops="0">
-      <Region name="Tom Drums 2-3.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a64236646400@a24911392000" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="13504" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="81084" type="audio" first-edit="nothing" source-0="81028" master-source-0="81028" channels="1">
-        <Envelope default="yes"/>
-        <FadeIn>
-          <AutomationList automation-id="fadein" id="81085" interpolation-style="Curved" time-domain="AudioTime" state="Off">
-            <events>a0 1.0000000116860974e-07
-a6400 0.047581917240722742
-a19200 0.095056046128510166
-a32000 0.14231484248572931
-a44800 0.18925124993221623
-a57600 0.23575894240242462
-a70400 0.28173256500817656
-a83200 0.32706797270138427
-a96000 0.37166246619609461
-a108800 0.41541502461541735
-a121600 0.45822653433631649
-a134400 0.50000001351385825
-a147200 0.54064083177629574
-a160000 0.5800569245933096
-a172800 0.6181590018317934
-a185600 0.65486075002673527
-a198400 0.69007902790898956
-a204800 0.72373402244207363
-a217600 0.75574959107584527
-a230400 0.78605314034223239
-a243200 0.81457596850756187
-a256000 0.84125352362782713
-a268800 0.86602541938889765
-a281600 0.88883548505684096
-a294400 0.90963200949777623
-a307200 0.92836792879818764
-a320000 0.94500083077800312
-a332800 0.95949299759422635
-a345600 0.97181157768799009
-a358400 0.98192869618882905
-a371200 0.98982144793751214
-a384000 0.99547193120317901
-a409600 1
-</events>
-          </AutomationList>
-        </FadeIn>
-        <InverseFadeIn>
-          <AutomationList automation-id="fadein" id="81086" interpolation-style="Curved" time-domain="AudioTime" state="Off">
-            <events>a0 1
-a25600 0.99547193120317901
-a38400 0.98982144793751214
-a51200 0.98192869618882905
-a64000 0.97181157768799009
-a76800 0.95949299759422635
-a89600 0.94500083077800312
-a102400 0.92836792879818764
-a115200 0.90963200949777623
-a128000 0.88883548505684096
-a140800 0.86602541938889765
-a153600 0.84125352362782713
-a166400 0.81457596850756187
-a179200 0.78605314034223239
-a192000 0.75574959107584527
-a204800 0.72373402244207363
-a211200 0.69007902790898956
-a224000 0.65486075002673527
-a236800 0.6181590018317934
-a249600 0.5800569245933096
-a262400 0.54064083177629574
-a275200 0.50000001351385825
-a288000 0.45822653433631649
-a300800 0.41541502461541735
-a313600 0.37166246619609461
-a326400 0.32706797270138427
-a339200 0.28173256500817656
-a352000 0.23575894240242462
-a364800 0.18925124993221623
-a377600 0.14231484248572931
-a390400 0.095056046128510166
-a403200 0.047581917240722742
-a409600 1.0000000116860974e-07
-</events>
-          </AutomationList>
-        </InverseFadeIn>
-        <FadeOut>
-          <AutomationList automation-id="fadeout" id="81087" interpolation-style="Curved" time-domain="AudioTime" state="Off">
-            <events>a0 1
-a6400 0.99886733911550885
-a19200 0.99547192230339399
-a32000 0.98982144127527472
-a44800 0.98192869618882905
-a57600 0.97181156665131863
-a70400 0.9594929712165241
-a83200 0.94500081546684744
-a96000 0.92836792879818764
-a108800 0.90963199005079642
-a121600 0.88883544215458044
-a134400 0.86602539598220885
-a147200 0.84125352362782713
-a160000 0.81457594135313838
-a172800 0.78605308246601313
-a185600 0.75574956041960206
-a198400 0.72373402244207363
-a204800 0.69007902790898956
-a217600 0.65486071464754436
-a230400 0.61815892823618979
-a243200 0.5800568864602571
-a256000 0.54064083177629574
-a268800 0.49999997297228316
-a281600 0.45822645111753457
-a294400 0.41541498203247024
-a307200 0.37166246619609478
-a320000 0.32706792846270311
-a332800 0.28173247517396005
-a345600 0.2357588969086416
-a358400 0.18925124993221634
-a371200 0.1423147961488434
-a384000 0.095055952925701945
-a409600 1.0000000116860974e-07
-</events>
-          </AutomationList>
-        </FadeOut>
-        <InverseFadeOut>
-          <AutomationList automation-id="fadeout" id="81088" interpolation-style="Curved" time-domain="AudioTime" state="Off">
-            <events>a0 1.0000000116860974e-07
-a25600 0.095055952925701945
-a38400 0.1423147961488434
-a51200 0.18925124993221634
-a64000 0.2357588969086416
-a76800 0.28173247517396005
-a89600 0.32706792846270311
-a102400 0.37166246619609478
-a115200 0.41541498203247024
-a128000 0.45822645111753457
-a140800 0.49999997297228316
-a153600 0.54064083177629574
-a166400 0.5800568864602571
-a179200 0.61815892823618979
-a192000 0.65486071464754436
-a204800 0.69007902790898956
-a211200 0.72373402244207363
-a224000 0.75574956041960206
-a236800 0.78605308246601313
-a249600 0.81457594135313838
-a262400 0.84125352362782713
-a275200 0.86602539598220885
-a288000 0.88883544215458044
-a300800 0.90963199005079642
-a313600 0.92836792879818764
-a326400 0.94500081546684744
-a339200 0.9594929712165241
-a352000 0.97181156665131863
-a364800 0.98192869618882905
-a377600 0.98982144127527472
-a390400 0.99547192230339399
-a403200 0.99886733911550885
-a409600 1
-</events>
-          </AutomationList>
-        </InverseFadeOut>
-      </Region>
-    </Playlist>
-  </Playlists>
-  <UnusedPlaylists>
-    <Playlist id="2296" name="MIDI bass 1 1.1" type="midi" orig-track-id="2355" pgroup-id="" shared-with-ids="" frozen="0" combine-ops="0">
-      <Region name="MIDI bass-5.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b1920" length="b28800@b38400" sync-position="b0" ancestral-start="b0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="2299" type="midi" first-edit="nothing" source-0="2297" master-source-0="2297"/>
-      <Region name="MIDI bass-6.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b67200" sync-position="b0" ancestral-start="b0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="1" tags="" contents="0" rgroup="0" id="2307" type="midi" first-edit="nothing" source-0="2305" master-source-0="2305"/>
-    </Playlist>
-    <Playlist id="2577" name="lead 1.1" type="midi" orig-track-id="2636" pgroup-id="" shared-with-ids="" frozen="0" combine-ops="0">
-      <Region name="lead-3.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b1920" length="b30720@b38400" sync-position="b0" ancestral-start="b0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="2580" type="midi" first-edit="nothing" source-0="2578" master-source-0="2578"/>
-      <Region name="lead-4.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b1920" length="b30720@b69120" sync-position="b0" ancestral-start="b0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="1" tags="" contents="0" rgroup="0" id="2588" type="midi" first-edit="nothing" source-0="2586" master-source-0="2586"/>
-    </Playlist>
-    <Playlist id="49547" name="Take.1" type="audio" orig-track-id="32390" pgroup-id="2026-03-09 23.46.28" shared-with-ids="" frozen="0" combine-ops="0">
-      <Region name="Keys sax-3.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a2852113160" length="a6363784440@a32086231560" sync-position="a2852113160" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="4512" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="49608" type="audio" first-edit="nothing" source-0="49589" master-source-0="49589" channels="1">
-        <Envelope>
-          <AutomationList automation-id="envelope" id="49613" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-            <events>a0 1.0000001000000001
-a6363782400 1
-</events>
-          </AutomationList>
-        </Envelope>
-        <FadeIn>
-          <AutomationList automation-id="fadein" id="49609" interpolation-style="Curved" time-domain="AudioTime" state="Off">
-            <events>a0 1.0000000116860974e-07
-a6400 0.047581917240722742
-a19200 0.095056046128510166
-a32000 0.14231484248572931
-a44800 0.18925124993221623
-a57600 0.23575894240242462
-a70400 0.28173256500817656
-a83200 0.32706797270138427
-a96000 0.37166246619609461
-a108800 0.41541502461541735
-a121600 0.45822653433631649
-a134400 0.50000001351385825
-a147200 0.54064083177629574
-a160000 0.5800569245933096
-a172800 0.6181590018317934
-a185600 0.65486075002673527
-a198400 0.69007902790898956
-a204800 0.72373402244207363
-a217600 0.75574959107584527
-a230400 0.78605314034223239
-a243200 0.81457596850756187
-a256000 0.84125352362782713
-a268800 0.86602541938889765
-a281600 0.88883548505684096
-a294400 0.90963200949777623
-a307200 0.92836792879818764
-a320000 0.94500083077800312
-a332800 0.95949299759422635
-a345600 0.97181157768799009
-a358400 0.98192869618882905
-a371200 0.98982144793751214
-a384000 0.99547193120317901
-a409600 1
-</events>
-          </AutomationList>
-        </FadeIn>
-        <InverseFadeIn>
-          <AutomationList automation-id="fadein" id="49610" interpolation-style="Curved" time-domain="AudioTime" state="Off">
-            <events>a0 1
-a25600 0.99547193120317901
-a38400 0.98982144793751214
-a51200 0.98192869618882905
-a64000 0.97181157768799009
-a76800 0.95949299759422635
-a89600 0.94500083077800312
-a102400 0.92836792879818764
-a115200 0.90963200949777623
-a128000 0.88883548505684096
-a140800 0.86602541938889765
-a153600 0.84125352362782713
-a166400 0.81457596850756187
-a179200 0.78605314034223239
-a192000 0.75574959107584527
-a204800 0.72373402244207363
-a211200 0.69007902790898956
-a224000 0.65486075002673527
-a236800 0.6181590018317934
-a249600 0.5800569245933096
-a262400 0.54064083177629574
-a275200 0.50000001351385825
-a288000 0.45822653433631649
-a300800 0.41541502461541735
-a313600 0.37166246619609461
-a326400 0.32706797270138427
-a339200 0.28173256500817656
-a352000 0.23575894240242462
-a364800 0.18925124993221623
-a377600 0.14231484248572931
-a390400 0.095056046128510166
-a403200 0.047581917240722742
-a409600 1.0000000116860974e-07
-</events>
-          </AutomationList>
-        </InverseFadeIn>
-        <FadeOut>
-          <AutomationList automation-id="fadeout" id="49611" interpolation-style="Curved" time-domain="AudioTime" state="Off">
-            <events>a0 1
-a6400 0.99886733911550885
-a19200 0.99547192230339399
-a32000 0.98982144127527472
-a44800 0.98192869618882905
-a57600 0.97181156665131863
-a70400 0.9594929712165241
-a83200 0.94500081546684744
-a96000 0.92836792879818764
-a108800 0.90963199005079642
-a121600 0.88883544215458044
-a134400 0.86602539598220885
-a147200 0.84125352362782713
-a160000 0.81457594135313838
-a172800 0.78605308246601313
-a185600 0.75574956041960206
-a198400 0.72373402244207363
-a204800 0.69007902790898956
-a217600 0.65486071464754436
-a230400 0.61815892823618979
-a243200 0.5800568864602571
-a256000 0.54064083177629574
-a268800 0.49999997297228316
-a281600 0.45822645111753457
-a294400 0.41541498203247024
-a307200 0.37166246619609478
-a320000 0.32706792846270311
-a332800 0.28173247517396005
-a345600 0.2357588969086416
-a358400 0.18925124993221634
-a371200 0.1423147961488434
-a384000 0.095055952925701945
-a409600 1.0000000116860974e-07
-</events>
-          </AutomationList>
-        </FadeOut>
-        <InverseFadeOut>
-          <AutomationList automation-id="fadeout" id="49612" interpolation-style="Curved" time-domain="AudioTime" state="Off">
-            <events>a0 1.0000000116860974e-07
-a25600 0.095055952925701945
-a38400 0.1423147961488434
-a51200 0.18925124993221634
-a64000 0.2357588969086416
-a76800 0.28173247517396005
-a89600 0.32706792846270311
-a102400 0.37166246619609478
-a115200 0.41541498203247024
-a128000 0.45822645111753457
-a140800 0.49999997297228316
-a153600 0.54064083177629574
-a166400 0.5800568864602571
-a179200 0.61815892823618979
-a192000 0.65486071464754436
-a204800 0.69007902790898956
-a211200 0.72373402244207363
-a224000 0.75574956041960206
-a236800 0.78605308246601313
-a249600 0.81457594135313838
-a262400 0.84125352362782713
-a275200 0.86602539598220885
-a288000 0.88883544215458044
-a300800 0.90963199005079642
-a313600 0.92836792879818764
-a326400 0.94500081546684744
-a339200 0.9594929712165241
-a352000 0.97181156665131863
-a364800 0.98192869618882905
-a377600 0.98982144127527472
-a390400 0.99547192230339399
-a403200 0.99886733911550885
-a409600 1
-</events>
-          </AutomationList>
-        </InverseFadeOut>
-      </Region>
-      <Region name="Keys sax-3.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a2852113160" length="a6363784440@a43494669448" sync-position="a2852113160" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="1" tags="" contents="0" rgroup="4544" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="49641" type="audio" first-edit="nothing" source-0="49589" master-source-0="49589" channels="1">
-        <Envelope>
-          <AutomationList automation-id="envelope" id="49647" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-            <events>a0 1.0000001000000001
-a6363782400 1
-</events>
-          </AutomationList>
-        </Envelope>
-        <FadeIn>
-          <AutomationList automation-id="fadein" id="49642" interpolation-style="Curved" time-domain="AudioTime" state="Off">
-            <events>a0 1.0000000116860974e-07
-a6400 0.047581917240722742
-a19200 0.095056046128510166
-a32000 0.14231484248572931
-a44800 0.18925124993221623
-a57600 0.23575894240242462
-a70400 0.28173256500817656
-a83200 0.32706797270138427
-a96000 0.37166246619609461
-a108800 0.41541502461541735
-a121600 0.45822653433631649
-a134400 0.50000001351385825
-a147200 0.54064083177629574
-a160000 0.5800569245933096
-a172800 0.6181590018317934
-a185600 0.65486075002673527
-a198400 0.69007902790898956
-a204800 0.72373402244207363
-a217600 0.75574959107584527
-a230400 0.78605314034223239
-a243200 0.81457596850756187
-a256000 0.84125352362782713
-a268800 0.86602541938889765
-a281600 0.88883548505684096
-a294400 0.90963200949777623
-a307200 0.92836792879818764
-a320000 0.94500083077800312
-a332800 0.95949299759422635
-a345600 0.97181157768799009
-a358400 0.98192869618882905
-a371200 0.98982144793751214
-a384000 0.99547193120317901
-a409600 1
-</events>
-          </AutomationList>
-        </FadeIn>
-        <InverseFadeIn>
-          <AutomationList automation-id="fadein" id="49643" interpolation-style="Curved" time-domain="AudioTime" state="Off">
-            <events>a0 1
-a25600 0.99547193120317901
-a38400 0.98982144793751214
-a51200 0.98192869618882905
-a64000 0.97181157768799009
-a76800 0.95949299759422635
-a89600 0.94500083077800312
-a102400 0.92836792879818764
-a115200 0.90963200949777623
-a128000 0.88883548505684096
-a140800 0.86602541938889765
-a153600 0.84125352362782713
-a166400 0.81457596850756187
-a179200 0.78605314034223239
-a192000 0.75574959107584527
-a204800 0.72373402244207363
-a211200 0.69007902790898956
-a224000 0.65486075002673527
-a236800 0.6181590018317934
-a249600 0.5800569245933096
-a262400 0.54064083177629574
-a275200 0.50000001351385825
-a288000 0.45822653433631649
-a300800 0.41541502461541735
-a313600 0.37166246619609461
-a326400 0.32706797270138427
-a339200 0.28173256500817656
-a352000 0.23575894240242462
-a364800 0.18925124993221623
-a377600 0.14231484248572931
-a390400 0.095056046128510166
-a403200 0.047581917240722742
-a409600 1.0000000116860974e-07
-</events>
-          </AutomationList>
-        </InverseFadeIn>
-        <FadeOut>
-          <AutomationList automation-id="fadeout" id="49644" interpolation-style="Curved" time-domain="AudioTime" state="Off">
-            <events>a0 1
-a6400 0.99886733911550885
-a19200 0.99547192230339399
-a32000 0.98982144127527472
-a44800 0.98192869618882905
-a57600 0.97181156665131863
-a70400 0.9594929712165241
-a83200 0.94500081546684744
-a96000 0.92836792879818764
-a108800 0.90963199005079642
-a121600 0.88883544215458044
-a134400 0.86602539598220885
-a147200 0.84125352362782713
-a160000 0.81457594135313838
-a172800 0.78605308246601313
-a185600 0.75574956041960206
-a198400 0.72373402244207363
-a204800 0.69007902790898956
-a217600 0.65486071464754436
-a230400 0.61815892823618979
-a243200 0.5800568864602571
-a256000 0.54064083177629574
-a268800 0.49999997297228316
-a281600 0.45822645111753457
-a294400 0.41541498203247024
-a307200 0.37166246619609478
-a320000 0.32706792846270311
-a332800 0.28173247517396005
-a345600 0.2357588969086416
-a358400 0.18925124993221634
-a371200 0.1423147961488434
-a384000 0.095055952925701945
-a409600 1.0000000116860974e-07
-</events>
-          </AutomationList>
-        </FadeOut>
-        <InverseFadeOut>
-          <AutomationList automation-id="fadeout" id="49645" interpolation-style="Curved" time-domain="AudioTime" state="Off">
-            <events>a0 1.0000000116860974e-07
-a25600 0.095055952925701945
-a38400 0.1423147961488434
-a51200 0.18925124993221634
-a64000 0.2357588969086416
-a76800 0.28173247517396005
-a89600 0.32706792846270311
-a102400 0.37166246619609478
-a115200 0.41541498203247024
-a128000 0.45822645111753457
-a140800 0.49999997297228316
-a153600 0.54064083177629574
-a166400 0.5800568864602571
-a179200 0.61815892823618979
-a192000 0.65486071464754436
-a204800 0.69007902790898956
-a211200 0.72373402244207363
-a224000 0.75574956041960206
-a236800 0.78605308246601313
-a249600 0.81457594135313838
-a262400 0.84125352362782713
-a275200 0.86602539598220885
-a288000 0.88883544215458044
-a300800 0.90963199005079642
-a313600 0.92836792879818764
-a326400 0.94500081546684744
-a339200 0.9594929712165241
-a352000 0.97181156665131863
-a364800 0.98192869618882905
-a377600 0.98982144127527472
-a390400 0.99547192230339399
-a403200 0.99886733911550885
-a409600 1
-</events>
-          </AutomationList>
-        </InverseFadeOut>
-      </Region>
-    </Playlist>
-    <Playlist id="50068" name="Take.2" type="audio" orig-track-id="32390" pgroup-id="2026-03-10 00.13.07" shared-with-ids="" frozen="0" combine-ops="0">
-      <Region name="Keys sax-6.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a2852113160" length="a6403106040@a32086231560" sync-position="a2852113160" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="5472" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="50129" type="audio" first-edit="nothing" source-0="50110" master-source-0="50110" channels="1">
-        <Envelope>
-          <AutomationList automation-id="envelope" id="50134" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-            <events>a0 1.0000001000000001
-a6403104000 1
-</events>
-          </AutomationList>
-        </Envelope>
-        <FadeIn>
-          <AutomationList automation-id="fadein" id="50130" interpolation-style="Curved" time-domain="AudioTime" state="Off">
-            <events>a0 1.0000000116860974e-07
-a6400 0.047581917240722742
-a19200 0.095056046128510166
-a32000 0.14231484248572931
-a44800 0.18925124993221623
-a57600 0.23575894240242462
-a70400 0.28173256500817656
-a83200 0.32706797270138427
-a96000 0.37166246619609461
-a108800 0.41541502461541735
-a121600 0.45822653433631649
-a134400 0.50000001351385825
-a147200 0.54064083177629574
-a160000 0.5800569245933096
-a172800 0.6181590018317934
-a185600 0.65486075002673527
-a198400 0.69007902790898956
-a204800 0.72373402244207363
-a217600 0.75574959107584527
-a230400 0.78605314034223239
-a243200 0.81457596850756187
-a256000 0.84125352362782713
-a268800 0.86602541938889765
-a281600 0.88883548505684096
-a294400 0.90963200949777623
-a307200 0.92836792879818764
-a320000 0.94500083077800312
-a332800 0.95949299759422635
-a345600 0.97181157768799009
-a358400 0.98192869618882905
-a371200 0.98982144793751214
-a384000 0.99547193120317901
-a409600 1
-</events>
-          </AutomationList>
-        </FadeIn>
-        <InverseFadeIn>
-          <AutomationList automation-id="fadein" id="50131" interpolation-style="Curved" time-domain="AudioTime" state="Off">
-            <events>a0 1
-a25600 0.99547193120317901
-a38400 0.98982144793751214
-a51200 0.98192869618882905
-a64000 0.97181157768799009
-a76800 0.95949299759422635
-a89600 0.94500083077800312
-a102400 0.92836792879818764
-a115200 0.90963200949777623
-a128000 0.88883548505684096
-a140800 0.86602541938889765
-a153600 0.84125352362782713
-a166400 0.81457596850756187
-a179200 0.78605314034223239
-a192000 0.75574959107584527
-a204800 0.72373402244207363
-a211200 0.69007902790898956
-a224000 0.65486075002673527
-a236800 0.6181590018317934
-a249600 0.5800569245933096
-a262400 0.54064083177629574
-a275200 0.50000001351385825
-a288000 0.45822653433631649
-a300800 0.41541502461541735
-a313600 0.37166246619609461
-a326400 0.32706797270138427
-a339200 0.28173256500817656
-a352000 0.23575894240242462
-a364800 0.18925124993221623
-a377600 0.14231484248572931
-a390400 0.095056046128510166
-a403200 0.047581917240722742
-a409600 1.0000000116860974e-07
-</events>
-          </AutomationList>
-        </InverseFadeIn>
-        <FadeOut>
-          <AutomationList automation-id="fadeout" id="50132" interpolation-style="Curved" time-domain="AudioTime" state="Off">
-            <events>a0 1
-a6400 0.99886733911550885
-a19200 0.99547192230339399
-a32000 0.98982144127527472
-a44800 0.98192869618882905
-a57600 0.97181156665131863
-a70400 0.9594929712165241
-a83200 0.94500081546684744
-a96000 0.92836792879818764
-a108800 0.90963199005079642
-a121600 0.88883544215458044
-a134400 0.86602539598220885
-a147200 0.84125352362782713
-a160000 0.81457594135313838
-a172800 0.78605308246601313
-a185600 0.75574956041960206
-a198400 0.72373402244207363
-a204800 0.69007902790898956
-a217600 0.65486071464754436
-a230400 0.61815892823618979
-a243200 0.5800568864602571
-a256000 0.54064083177629574
-a268800 0.49999997297228316
-a281600 0.45822645111753457
-a294400 0.41541498203247024
-a307200 0.37166246619609478
-a320000 0.32706792846270311
-a332800 0.28173247517396005
-a345600 0.2357588969086416
-a358400 0.18925124993221634
-a371200 0.1423147961488434
-a384000 0.095055952925701945
-a409600 1.0000000116860974e-07
-</events>
-          </AutomationList>
-        </FadeOut>
-        <InverseFadeOut>
-          <AutomationList automation-id="fadeout" id="50133" interpolation-style="Curved" time-domain="AudioTime" state="Off">
-            <events>a0 1.0000000116860974e-07
-a25600 0.095055952925701945
-a38400 0.1423147961488434
-a51200 0.18925124993221634
-a64000 0.2357588969086416
-a76800 0.28173247517396005
-a89600 0.32706792846270311
-a102400 0.37166246619609478
-a115200 0.41541498203247024
-a128000 0.45822645111753457
-a140800 0.49999997297228316
-a153600 0.54064083177629574
-a166400 0.5800568864602571
-a179200 0.61815892823618979
-a192000 0.65486071464754436
-a204800 0.69007902790898956
-a211200 0.72373402244207363
-a224000 0.75574956041960206
-a236800 0.78605308246601313
-a249600 0.81457594135313838
-a262400 0.84125352362782713
-a275200 0.86602539598220885
-a288000 0.88883544215458044
-a300800 0.90963199005079642
-a313600 0.92836792879818764
-a326400 0.94500081546684744
-a339200 0.9594929712165241
-a352000 0.97181156665131863
-a364800 0.98192869618882905
-a377600 0.98982144127527472
-a390400 0.99547192230339399
-a403200 0.99886733911550885
-a409600 1
-</events>
-          </AutomationList>
-        </InverseFadeOut>
-      </Region>
-      <Region name="Keys sax-6.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a2852113160" length="a6403106040@a43494669448" sync-position="a2852113160" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="1" tags="" contents="0" rgroup="5488" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="50162" type="audio" first-edit="nothing" source-0="50110" master-source-0="50110" channels="1">
-        <Envelope>
-          <AutomationList automation-id="envelope" id="50168" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-            <events>a0 1.0000001000000001
-a6403104000 1
-</events>
-          </AutomationList>
-        </Envelope>
-        <FadeIn>
-          <AutomationList automation-id="fadein" id="50163" interpolation-style="Curved" time-domain="AudioTime" state="Off">
-            <events>a0 1.0000000116860974e-07
-a6400 0.047581917240722742
-a19200 0.095056046128510166
-a32000 0.14231484248572931
-a44800 0.18925124993221623
-a57600 0.23575894240242462
-a70400 0.28173256500817656
-a83200 0.32706797270138427
-a96000 0.37166246619609461
-a108800 0.41541502461541735
-a121600 0.45822653433631649
-a134400 0.50000001351385825
-a147200 0.54064083177629574
-a160000 0.5800569245933096
-a172800 0.6181590018317934
-a185600 0.65486075002673527
-a198400 0.69007902790898956
-a204800 0.72373402244207363
-a217600 0.75574959107584527
-a230400 0.78605314034223239
-a243200 0.81457596850756187
-a256000 0.84125352362782713
-a268800 0.86602541938889765
-a281600 0.88883548505684096
-a294400 0.90963200949777623
-a307200 0.92836792879818764
-a320000 0.94500083077800312
-a332800 0.95949299759422635
-a345600 0.97181157768799009
-a358400 0.98192869618882905
-a371200 0.98982144793751214
-a384000 0.99547193120317901
-a409600 1
-</events>
-          </AutomationList>
-        </FadeIn>
-        <InverseFadeIn>
-          <AutomationList automation-id="fadein" id="50164" interpolation-style="Curved" time-domain="AudioTime" state="Off">
-            <events>a0 1
-a25600 0.99547193120317901
-a38400 0.98982144793751214
-a51200 0.98192869618882905
-a64000 0.97181157768799009
-a76800 0.95949299759422635
-a89600 0.94500083077800312
-a102400 0.92836792879818764
-a115200 0.90963200949777623
-a128000 0.88883548505684096
-a140800 0.86602541938889765
-a153600 0.84125352362782713
-a166400 0.81457596850756187
-a179200 0.78605314034223239
-a192000 0.75574959107584527
-a204800 0.72373402244207363
-a211200 0.69007902790898956
-a224000 0.65486075002673527
-a236800 0.6181590018317934
-a249600 0.5800569245933096
-a262400 0.54064083177629574
-a275200 0.50000001351385825
-a288000 0.45822653433631649
-a300800 0.41541502461541735
-a313600 0.37166246619609461
-a326400 0.32706797270138427
-a339200 0.28173256500817656
-a352000 0.23575894240242462
-a364800 0.18925124993221623
-a377600 0.14231484248572931
-a390400 0.095056046128510166
-a403200 0.047581917240722742
-a409600 1.0000000116860974e-07
-</events>
-          </AutomationList>
-        </InverseFadeIn>
-        <FadeOut>
-          <AutomationList automation-id="fadeout" id="50165" interpolation-style="Curved" time-domain="AudioTime" state="Off">
-            <events>a0 1
-a6400 0.99886733911550885
-a19200 0.99547192230339399
-a32000 0.98982144127527472
-a44800 0.98192869618882905
-a57600 0.97181156665131863
-a70400 0.9594929712165241
-a83200 0.94500081546684744
-a96000 0.92836792879818764
-a108800 0.90963199005079642
-a121600 0.88883544215458044
-a134400 0.86602539598220885
-a147200 0.84125352362782713
-a160000 0.81457594135313838
-a172800 0.78605308246601313
-a185600 0.75574956041960206
-a198400 0.72373402244207363
-a204800 0.69007902790898956
-a217600 0.65486071464754436
-a230400 0.61815892823618979
-a243200 0.5800568864602571
-a256000 0.54064083177629574
-a268800 0.49999997297228316
-a281600 0.45822645111753457
-a294400 0.41541498203247024
-a307200 0.37166246619609478
-a320000 0.32706792846270311
-a332800 0.28173247517396005
-a345600 0.2357588969086416
-a358400 0.18925124993221634
-a371200 0.1423147961488434
-a384000 0.095055952925701945
-a409600 1.0000000116860974e-07
-</events>
-          </AutomationList>
-        </FadeOut>
-        <InverseFadeOut>
-          <AutomationList automation-id="fadeout" id="50166" interpolation-style="Curved" time-domain="AudioTime" state="Off">
-            <events>a0 1.0000000116860974e-07
-a25600 0.095055952925701945
-a38400 0.1423147961488434
-a51200 0.18925124993221634
-a64000 0.2357588969086416
-a76800 0.28173247517396005
-a89600 0.32706792846270311
-a102400 0.37166246619609478
-a115200 0.41541498203247024
-a128000 0.45822645111753457
-a140800 0.49999997297228316
-a153600 0.54064083177629574
-a166400 0.5800568864602571
-a179200 0.61815892823618979
-a192000 0.65486071464754436
-a204800 0.69007902790898956
-a211200 0.72373402244207363
-a224000 0.75574956041960206
-a236800 0.78605308246601313
-a249600 0.81457594135313838
-a262400 0.84125352362782713
-a275200 0.86602539598220885
-a288000 0.88883544215458044
-a300800 0.90963199005079642
-a313600 0.92836792879818764
-a326400 0.94500081546684744
-a339200 0.9594929712165241
-a352000 0.97181156665131863
-a364800 0.98192869618882905
-a377600 0.98982144127527472
-a390400 0.99547192230339399
-a403200 0.99886733911550885
-a409600 1
-</events>
-          </AutomationList>
-        </InverseFadeOut>
-      </Region>
-      <Region name="Keys sax-6.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a2852113160" length="a6403106040@a66311545224" sync-position="a2852113160" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="2" tags="" contents="0" rgroup="5536" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="50185" type="audio" first-edit="nothing" source-0="50110" master-source-0="50110" channels="1">
-        <Envelope>
-          <AutomationList automation-id="envelope" id="50191" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-            <events>a0 1.0000001000000001
-a6403104000 1
-</events>
-          </AutomationList>
-        </Envelope>
-        <FadeIn>
-          <AutomationList automation-id="fadein" id="50186" interpolation-style="Curved" time-domain="AudioTime" state="Off">
-            <events>a0 1.0000000116860974e-07
-a6400 0.047581917240722742
-a19200 0.095056046128510166
-a32000 0.14231484248572931
-a44800 0.18925124993221623
-a57600 0.23575894240242462
-a70400 0.28173256500817656
-a83200 0.32706797270138427
-a96000 0.37166246619609461
-a108800 0.41541502461541735
-a121600 0.45822653433631649
-a134400 0.50000001351385825
-a147200 0.54064083177629574
-a160000 0.5800569245933096
-a172800 0.6181590018317934
-a185600 0.65486075002673527
-a198400 0.69007902790898956
-a204800 0.72373402244207363
-a217600 0.75574959107584527
-a230400 0.78605314034223239
-a243200 0.81457596850756187
-a256000 0.84125352362782713
-a268800 0.86602541938889765
-a281600 0.88883548505684096
-a294400 0.90963200949777623
-a307200 0.92836792879818764
-a320000 0.94500083077800312
-a332800 0.95949299759422635
-a345600 0.97181157768799009
-a358400 0.98192869618882905
-a371200 0.98982144793751214
-a384000 0.99547193120317901
-a409600 1
-</events>
-          </AutomationList>
-        </FadeIn>
-        <InverseFadeIn>
-          <AutomationList automation-id="fadein" id="50187" interpolation-style="Curved" time-domain="AudioTime" state="Off">
-            <events>a0 1
-a25600 0.99547193120317901
-a38400 0.98982144793751214
-a51200 0.98192869618882905
-a64000 0.97181157768799009
-a76800 0.95949299759422635
-a89600 0.94500083077800312
-a102400 0.92836792879818764
-a115200 0.90963200949777623
-a128000 0.88883548505684096
-a140800 0.86602541938889765
-a153600 0.84125352362782713
-a166400 0.81457596850756187
-a179200 0.78605314034223239
-a192000 0.75574959107584527
-a204800 0.72373402244207363
-a211200 0.69007902790898956
-a224000 0.65486075002673527
-a236800 0.6181590018317934
-a249600 0.5800569245933096
-a262400 0.54064083177629574
-a275200 0.50000001351385825
-a288000 0.45822653433631649
-a300800 0.41541502461541735
-a313600 0.37166246619609461
-a326400 0.32706797270138427
-a339200 0.28173256500817656
-a352000 0.23575894240242462
-a364800 0.18925124993221623
-a377600 0.14231484248572931
-a390400 0.095056046128510166
-a403200 0.047581917240722742
-a409600 1.0000000116860974e-07
-</events>
-          </AutomationList>
-        </InverseFadeIn>
-        <FadeOut>
-          <AutomationList automation-id="fadeout" id="50188" interpolation-style="Curved" time-domain="AudioTime" state="Off">
-            <events>a0 1
-a6400 0.99886733911550885
-a19200 0.99547192230339399
-a32000 0.98982144127527472
-a44800 0.98192869618882905
-a57600 0.97181156665131863
-a70400 0.9594929712165241
-a83200 0.94500081546684744
-a96000 0.92836792879818764
-a108800 0.90963199005079642
-a121600 0.88883544215458044
-a134400 0.86602539598220885
-a147200 0.84125352362782713
-a160000 0.81457594135313838
-a172800 0.78605308246601313
-a185600 0.75574956041960206
-a198400 0.72373402244207363
-a204800 0.69007902790898956
-a217600 0.65486071464754436
-a230400 0.61815892823618979
-a243200 0.5800568864602571
-a256000 0.54064083177629574
-a268800 0.49999997297228316
-a281600 0.45822645111753457
-a294400 0.41541498203247024
-a307200 0.37166246619609478
-a320000 0.32706792846270311
-a332800 0.28173247517396005
-a345600 0.2357588969086416
-a358400 0.18925124993221634
-a371200 0.1423147961488434
-a384000 0.095055952925701945
-a409600 1.0000000116860974e-07
-</events>
-          </AutomationList>
-        </FadeOut>
-        <InverseFadeOut>
-          <AutomationList automation-id="fadeout" id="50189" interpolation-style="Curved" time-domain="AudioTime" state="Off">
             <events>a0 1.0000000116860974e-07
 a25600 0.095055952925701945
 a38400 0.1423147961488434
@@ -13653,31 +13818,6 @@ a409600 1
         <Field name="date" enabled="1" value="D_BEShortY"/>
       </ExportFilename>
     </RangeExportProfile>
-    <ExportProfile>
-      <ExportTimespan format="Timecode">
-        <Range id="253" realtime="0"/>
-      </ExportTimespan>
-      <ExportChannelConfiguration split="0" channels="2">
-        <ExportChannel type="PortExportChannel" number="1">
-          <Port name="Master/audio_out 1"/>
-        </ExportChannel>
-        <ExportChannel type="PortExportChannel" number="2">
-          <Port name="Master/audio_out 2"/>
-        </ExportChannel>
-      </ExportChannelConfiguration>
-      <ExportFormat id="b165e4bb-a516-4bd8-894a-31dd60b96fe1"/>
-      <ExportFilename>
-        <Folder relative="1" path="export"/>
-        <Field name="label" enabled="1" value="use-to-go-more-arrange"/>
-        <Field name="session" enabled="0"/>
-        <Field name="snapshot" enabled="0"/>
-        <Field name="timespan" enabled="1"/>
-        <Field name="revision" enabled="0"/>
-        <Field name="time" enabled="0" value="T_None"/>
-        <Field name="date" enabled="1" value="D_BEShortY"/>
-      </ExportFilename>
-    </ExportProfile>
-    <ExportRevision revision="1"/>
     <SelectionExportProfile>
       <ExportTimespan format="Timecode">
         <Range id="selection" realtime="0"/>
@@ -13702,6 +13842,31 @@ a409600 1
         <Field name="date" enabled="0" value="D_None"/>
       </ExportFilename>
     </SelectionExportProfile>
+    <ExportRevision revision="1"/>
+    <ExportProfile>
+      <ExportTimespan format="Timecode">
+        <Range id="253" realtime="0"/>
+      </ExportTimespan>
+      <ExportChannelConfiguration split="0" channels="2">
+        <ExportChannel type="PortExportChannel" number="1">
+          <Port name="Master/audio_out 1"/>
+        </ExportChannel>
+        <ExportChannel type="PortExportChannel" number="2">
+          <Port name="Master/audio_out 2"/>
+        </ExportChannel>
+      </ExportChannelConfiguration>
+      <ExportFormat id="b165e4bb-a516-4bd8-894a-31dd60b96fe1"/>
+      <ExportFilename>
+        <Folder relative="1" path="export"/>
+        <Field name="label" enabled="1" value="use-to-go-more-no-lead-keys"/>
+        <Field name="session" enabled="0"/>
+        <Field name="snapshot" enabled="0"/>
+        <Field name="timespan" enabled="1"/>
+        <Field name="revision" enabled="0"/>
+        <Field name="time" enabled="0" value="T_None"/>
+        <Field name="date" enabled="1" value="D_BEShortY"/>
+      </ExportFilename>
+    </ExportProfile>
     <UI>
       <Window name="key-editor" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="session-options-editor" visible="0" x-off="0" y-off="262" x-size="849" y-size="462"/>
