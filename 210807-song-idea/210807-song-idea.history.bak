@@ -5,22 +5,6 @@
       <Changes>
         <start from="a713030360" to="a1247800886"/>
         <length from="a1313568040@a67737599960" to="a778797514@a68272370486"/>
-        <Envelope>
-          <from>
-            <AutomationList automation-id="envelope" id="227959" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.0000001000000001
-a1313568000 1
-</events>
-            </AutomationList>
-          </from>
-          <to>
-            <AutomationList automation-id="envelope" id="227958" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.0000001592886585
-a778796800 1
-</events>
-            </AutomationList>
-          </to>
-        </Envelope>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="49" type-name="SelectionMemento">
@@ -45,22 +29,6 @@ a778796800 1
       <Changes>
         <start from="a1247800886" to="a1336929307"/>
         <length from="a778797514@a68272370486" to="a689669093@a68361498907"/>
-        <Envelope>
-          <from>
-            <AutomationList automation-id="envelope" id="228006" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.0000001592886585
-a778796800 1
-</events>
-            </AutomationList>
-          </from>
-          <to>
-            <AutomationList automation-id="envelope" id="228005" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.0000002410581734
-a689664000 1
-</events>
-            </AutomationList>
-          </to>
-        </Envelope>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="49" type-name="SelectionMemento">
@@ -84,22 +52,6 @@ a689664000 1
     <StatefulDiffCommand obj-id="227845" type-name="ARDOUR::AudioRegion">
       <Changes>
         <length from="a689669093@a68361498907" to="a267385263@a68361498907"/>
-        <Envelope>
-          <from>
-            <AutomationList automation-id="envelope" id="228053" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.0000002410581734
-a689664000 1
-</events>
-            </AutomationList>
-          </from>
-          <to>
-            <AutomationList automation-id="envelope" id="228052" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.0000002410581734
-a267379200 1.0000002476011534
-</events>
-            </AutomationList>
-          </to>
-        </Envelope>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="49" type-name="SelectionMemento">
@@ -123,22 +75,6 @@ a267379200 1.0000002476011534
     <StatefulDiffCommand obj-id="227845" type-name="ARDOUR::AudioRegion">
       <Changes>
         <length from="a267385263@a68361498907" to="a178256842@a68361498907"/>
-        <Envelope>
-          <from>
-            <AutomationList automation-id="envelope" id="228100" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.0000002410581734
-a267379200 1.0000002476011534
-</events>
-            </AutomationList>
-          </from>
-          <to>
-            <AutomationList automation-id="envelope" id="228099" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.0000002410581734
-a178252800 1.0000003476011534
-</events>
-            </AutomationList>
-          </to>
-        </Envelope>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="49" type-name="SelectionMemento">
@@ -162,22 +98,6 @@ a178252800 1.0000003476011534
     <StatefulDiffCommand obj-id="227845" type-name="ARDOUR::AudioRegion">
       <Changes>
         <length from="a178256842@a68361498907" to="a89128421@a68361498907"/>
-        <Envelope>
-          <from>
-            <AutomationList automation-id="envelope" id="228147" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.0000002410581734
-a178252800 1.0000003476011534
-</events>
-            </AutomationList>
-          </from>
-          <to>
-            <AutomationList automation-id="envelope" id="228146" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.0000002410581734
-a89126400 1.0000003943296645
-</events>
-            </AutomationList>
-          </to>
-        </Envelope>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="49" type-name="SelectionMemento">
@@ -232,22 +152,6 @@ a89126400 1.0000003943296645
       <Changes>
         <start from="a0" to="a713030360"/>
         <length from="a2111795200@a67024569600" to="a1398764840@a67737599960"/>
-        <Envelope>
-          <from>
-            <AutomationList automation-id="envelope" id="228277" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1
-a2111795200 1
-</events>
-            </AutomationList>
-          </from>
-          <to>
-            <AutomationList automation-id="envelope" id="228276" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.0000001000000001
-a1398764800 1
-</events>
-            </AutomationList>
-          </to>
-        </Envelope>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="49" type-name="SelectionMemento">
@@ -272,22 +176,6 @@ a1398764800 1
       <Changes>
         <start from="a713030360" to="a1336929307"/>
         <length from="a1398764840@a67737599960" to="a774865893@a68361498907"/>
-        <Envelope>
-          <from>
-            <AutomationList automation-id="envelope" id="228324" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.0000001000000001
-a1398764800 1
-</events>
-            </AutomationList>
-          </from>
-          <to>
-            <AutomationList automation-id="envelope" id="228323" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.0000001553960767
-a774860800 1
-</events>
-            </AutomationList>
-          </to>
-        </Envelope>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="49" type-name="SelectionMemento">
@@ -311,22 +199,6 @@ a774860800 1
     <StatefulDiffCommand obj-id="228210" type-name="ARDOUR::AudioRegion">
       <Changes>
         <length from="a774865893@a68361498907" to="a356513684@a68361498907"/>
-        <Envelope>
-          <from>
-            <AutomationList automation-id="envelope" id="228371" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.0000001553960767
-a774860800 1
-</events>
-            </AutomationList>
-          </from>
-          <to>
-            <AutomationList automation-id="envelope" id="228370" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.0000001553960767
-a356512000 1.0000001838986341
-</events>
-            </AutomationList>
-          </to>
-        </Envelope>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="49" type-name="SelectionMemento">
@@ -422,27 +294,6 @@ a356512000 1.0000001838986341
       <Changes>
         <start from="a445642105" to="a267385263"/>
         <length from="a2360834695@a77452597849" to="a2539091537@a77274341007"/>
-        <Envelope>
-          <from>
-            <AutomationList automation-id="envelope" id="228499" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.0000001886740975
-a2093446400 1
-a2360832000 1
-a2360832000 1
-</events>
-            </AutomationList>
-          </from>
-          <to>
-            <AutomationList automation-id="envelope" id="228498" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.0000001886740975
-a178259200 1.0000001886740975
-a2271705600 1
-a2539091200 1
-a2539091200 1
-</events>
-            </AutomationList>
-          </to>
-        </Envelope>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="49" type-name="SelectionMemento">
@@ -466,26 +317,6 @@ a2539091200 1
     <StatefulDiffCommand obj-id="228381" type-name="ARDOUR::AudioRegion">
       <Changes>
         <length from="a2539091537@a77274341007" to="a1158669473@a77274341007"/>
-        <Envelope>
-          <from>
-            <AutomationList automation-id="envelope" id="228548" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.0000001886740975
-a178259200 1.0000001886740975
-a2271705600 1
-a2539091200 1
-a2539091200 1
-</events>
-            </AutomationList>
-          </from>
-          <to>
-            <AutomationList automation-id="envelope" id="228547" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.0000001886740975
-a178259200 1.0000001886740975
-a1158668800 1.0000002003136312
-</events>
-            </AutomationList>
-          </to>
-        </Envelope>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="49" type-name="SelectionMemento">
@@ -509,24 +340,6 @@ a1158668800 1.0000002003136312
     <StatefulDiffCommand obj-id="228381" type-name="ARDOUR::AudioRegion">
       <Changes>
         <length from="a1158669473@a77274341007" to="a980412631@a77274341007"/>
-        <Envelope>
-          <from>
-            <AutomationList automation-id="envelope" id="228597" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.0000001886740975
-a178259200 1.0000001886740975
-a1158668800 1.0000002003136312
-</events>
-            </AutomationList>
-          </from>
-          <to>
-            <AutomationList automation-id="envelope" id="228596" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.0000001886740975
-a178259200 1.0000001886740975
-a980409600 1.0000003003136313
-</events>
-            </AutomationList>
-          </to>
-        </Envelope>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="49" type-name="SelectionMemento">
@@ -550,25 +363,6 @@ a980409600 1.0000003003136313
     <StatefulDiffCommand obj-id="228381" type-name="ARDOUR::AudioRegion">
       <Changes>
         <length from="a980412631@a77274341007" to="a2406467367@a77274341007"/>
-        <Envelope>
-          <from>
-            <AutomationList automation-id="envelope" id="228646" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.0000001886740975
-a178259200 1.0000001886740975
-a980409600 1.0000003003136313
-</events>
-            </AutomationList>
-          </from>
-          <to>
-            <AutomationList automation-id="envelope" id="228645" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.0000001886740975
-a178259200 1.0000001886740975
-a980409600 1.0000003003136313
-a2406464000 1.0000003003136313
-</events>
-            </AutomationList>
-          </to>
-        </Envelope>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="49" type-name="SelectionMemento">
@@ -592,26 +386,6 @@ a2406464000 1.0000003003136313
     <StatefulDiffCommand obj-id="228381" type-name="ARDOUR::AudioRegion">
       <Changes>
         <length from="a2406467367@a77274341007" to="a1158669473@a77274341007"/>
-        <Envelope>
-          <from>
-            <AutomationList automation-id="envelope" id="228695" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.0000001886740975
-a178259200 1.0000001886740975
-a980409600 1.0000003003136313
-a2406464000 1.0000003003136313
-</events>
-            </AutomationList>
-          </from>
-          <to>
-            <AutomationList automation-id="envelope" id="228694" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.0000001886740975
-a178259200 1.0000001886740975
-a980409600 1.0000003003136313
-a1158668800 1.0000004003136314
-</events>
-            </AutomationList>
-          </to>
-        </Envelope>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="49" type-name="SelectionMemento">
@@ -635,25 +409,6 @@ a1158668800 1.0000004003136314
     <StatefulDiffCommand obj-id="228381" type-name="ARDOUR::AudioRegion">
       <Changes>
         <length from="a1158669473@a77274341007" to="a980412631@a77274341007"/>
-        <Envelope>
-          <from>
-            <AutomationList automation-id="envelope" id="228744" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.0000001886740975
-a178259200 1.0000001886740975
-a980409600 1.0000003003136313
-a1158668800 1.0000004003136314
-</events>
-            </AutomationList>
-          </from>
-          <to>
-            <AutomationList automation-id="envelope" id="228743" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.0000001886740975
-a178259200 1.0000001886740975
-a980409600 1.0000003003136313
-</events>
-            </AutomationList>
-          </to>
-        </Envelope>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="49" type-name="SelectionMemento">
