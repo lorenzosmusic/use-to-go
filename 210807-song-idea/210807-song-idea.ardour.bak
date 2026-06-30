@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="7003" name="210807-song-idea" sample-rate="44100" session-range-is-free="0" id-counter="255346" rg-counter="2133" name-counter="1" event-counter="2547000" vca-counter="1">
+<Session version="7003" name="210807-song-idea" sample-rate="44100" session-range-is-free="0" id-counter="268700" rg-counter="2144" name-counter="1" event-counter="2559677" vca-counter="1">
   <ProgramVersion created-with="Ardour 1:5.12.0-3ubuntu4" modified-with="Ardour 8.4.0~ds1-2ubuntu8"/>
   <MIDIPorts>
     <Port name="Cue Control in" type="midi" direction="Input"/>
@@ -10,6 +10,7 @@
     <Port name="Scene in" type="midi" direction="Input"/>
     <Port name="Scene out" type="midi" direction="Output"/>
     <Port name="x-virtual-keyboard" type="midi" direction="Output">
+      <Connection other="MIDI drums/midi_in 1"/>
       <Connection other="MIDI drums/midi_in 1"/>
       <Connection other="midi bass/midi_in 1"/>
     </Port>
@@ -3750,7 +3751,7 @@ a409600 1
     <CompoundAssociation copy="62848" original="62737"/>
   </CompoundAssociations>
   <Selection>
-    <StripableAutomationControl stripable="255237" control="0" order="2"/>
+    <StripableAutomationControl stripable="158" control="0" order="2"/>
   </Selection>
   <Locations>
     <Location id="253" name="session" start="b276480" end="b902400" flags="IsSessionRange" locked="0" timestamp="1731565988" cue="0"/>
@@ -3785,7 +3786,6 @@ a409600 1
           <Connection other="vocals 2/audio_out 1"/>
           <Connection other="vocals/audio_out 1"/>
           <Connection other="xy keys/audio_out 1"/>
-          <Connection other="xy keys/audio_out 1"/>
         </Port>
         <Port name="Master/audio_in 2" type="audio" direction="Input">
           <Connection other="Bryan sax solo/audio_out 2"/>
@@ -3803,7 +3803,6 @@ a409600 1
           <Connection other="reverb room Bus/audio_out 2"/>
           <Connection other="vocals 2/audio_out 2"/>
           <Connection other="vocals/audio_out 2"/>
-          <Connection other="xy keys/audio_out 2"/>
           <Connection other="xy keys/audio_out 2"/>
         </Port>
       </IO>
@@ -4737,7 +4736,6 @@ dist guitar 3 in yoshimi guitar bank</Comment>
       <Controllable name="solo-safe" id="8074" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="midi bass" id="8086" direction="Input" default-type="midi">
         <Port name="midi bass/midi_in 1" type="midi" direction="Input">
-          <Connection other="x-virtual-keyboard"/>
           <ExtConnection for="JACK"/>
         </Port>
       </IO>
@@ -7934,10 +7932,8 @@ dist guitar 3 in yoshimi guitar bank</Comment>
       <IO name="xy keys" id="255283" direction="Output" default-type="audio">
         <Port name="xy keys/audio_out 1" type="audio" direction="Output">
           <Connection other="Master/audio_in 1"/>
-          <Connection other="Master/audio_in 1"/>
         </Port>
         <Port name="xy keys/audio_out 2" type="audio" direction="Output">
-          <Connection other="Master/audio_in 2"/>
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
@@ -34354,31 +34350,6 @@ a409600 1
         <Field name="date" enabled="1" value="D_BEShortY"/>
       </ExportFilename>
     </RangeExportProfile>
-    <SelectionExportProfile>
-      <ExportTimespan format="Timecode">
-        <Range id="selection" realtime="0"/>
-      </ExportTimespan>
-      <ExportChannelConfiguration split="0" channels="2">
-        <ExportChannel type="PortExportChannel" number="1">
-          <Port name="Master/audio_out 1"/>
-        </ExportChannel>
-        <ExportChannel type="PortExportChannel" number="2">
-          <Port name="Master/audio_out 2"/>
-        </ExportChannel>
-      </ExportChannelConfiguration>
-      <ExportFormat id="b165e4bb-a516-4bd8-894a-31dd60b96fe1"/>
-      <ExportFilename>
-        <Folder relative="1" path="export"/>
-        <Field name="label" enabled="1" value="use-to-go-intro-no-vocal"/>
-        <Field name="session" enabled="0"/>
-        <Field name="snapshot" enabled="0"/>
-        <Field name="timespan" enabled="1"/>
-        <Field name="revision" enabled="0"/>
-        <Field name="time" enabled="0" value="T_None"/>
-        <Field name="date" enabled="0" value="D_None"/>
-      </ExportFilename>
-    </SelectionExportProfile>
-    <ExportRevision revision="4"/>
     <ExportProfile>
       <ExportTimespan format="Timecode">
         <Range id="253" realtime="0"/>
@@ -34403,12 +34374,37 @@ a409600 1
         <Field name="date" enabled="1" value="D_BEShortY"/>
       </ExportFilename>
     </ExportProfile>
+    <ExportRevision revision="4"/>
+    <SelectionExportProfile>
+      <ExportTimespan format="Timecode">
+        <Range id="selection" realtime="0"/>
+      </ExportTimespan>
+      <ExportChannelConfiguration split="0" channels="2">
+        <ExportChannel type="PortExportChannel" number="1">
+          <Port name="Master/audio_out 1"/>
+        </ExportChannel>
+        <ExportChannel type="PortExportChannel" number="2">
+          <Port name="Master/audio_out 2"/>
+        </ExportChannel>
+      </ExportChannelConfiguration>
+      <ExportFormat id="b165e4bb-a516-4bd8-894a-31dd60b96fe1"/>
+      <ExportFilename>
+        <Folder relative="1" path="export"/>
+        <Field name="label" enabled="1" value="use-to-go-vibes-vocal-idea"/>
+        <Field name="session" enabled="0"/>
+        <Field name="snapshot" enabled="0"/>
+        <Field name="timespan" enabled="1"/>
+        <Field name="revision" enabled="0"/>
+        <Field name="time" enabled="0" value="T_None"/>
+        <Field name="date" enabled="0" value="D_None"/>
+      </ExportFilename>
+    </SelectionExportProfile>
     <UI>
       <Window name="key-editor" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="session-options-editor" visible="0" x-off="0" y-off="262" x-size="849" y-size="462"/>
       <Window name="speaker-config" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="about" visible="0" x-off="0" y-off="0" x-size="424" y-size="611"/>
-      <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="707" y-size="503"/>
+      <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="688" y-size="503"/>
       <Window name="add-video" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="audio-midi-setup" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -34440,6 +34436,7 @@ a409600 1
       <Window name="RPM-105543" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-113077" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-54044" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-255237" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-170019" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-55706" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-131135" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -34447,6 +34444,12 @@ a409600 1
       <Window name="RPM-80805" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-54-509" visible="0" x-off="916" y-off="0" x-size="847" y-size="404" custom-ui="1"/>
       <Window name="PM-54-509" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-113077-169553" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-113077-169692" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-113077-113256" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-113077-169553" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-113077-169692" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-113077-113256" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-131020-131065" visible="0" x-off="1035" y-off="0" x-size="544" y-size="715" custom-ui="1"/>
       <Window name="PM-131020-131065" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-158-242" visible="0" x-off="929" y-off="0" x-size="820" y-size="454" custom-ui="1"/>
@@ -34485,12 +34488,6 @@ a409600 1
       <Window name="PM-105543-114652" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-105543-114723" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-105543-122127" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-113077-169553" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-113077-169692" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-113077-113256" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-113077-169553" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-113077-169692" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-113077-113256" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-54044-63828" visible="0" x-off="919" y-off="0" x-size="769" y-size="459" custom-ui="1"/>
       <Window name="P-54044-64085" visible="0" x-off="894" y-off="0" x-size="818" y-size="390" custom-ui="1"/>
       <Window name="PM-54044-63828" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -34515,7 +34512,6 @@ a409600 1
       <Window name="PM-80737-81204" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-80805-146943" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-80805-146943" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-255237" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 54" height="66" visible="1"/>
         <Object id="automation 58" height="66" visible="0"/>
